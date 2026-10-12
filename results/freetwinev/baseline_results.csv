@@ -1,0 +1,13 @@
+Horizon,Model,Feature_Set,Num_Features,Scaled,Val_MAE,Val_RMSE,Val_R2,Val_Bias,Val_Max_AE,Val_Abs_MAE,Val_Abs_RMSE,Val_Abs_R2,Train_MAE,Train_RMSE,Train_R2,Train_Bias
+60s,Naive Persistence,None (DeltaT=0),9,False,0.5234,1.5741,-0.0005,0.0363,14.4658,0.5234,1.5741,0.9594,0.4663,1.1363,-0.0006,0.0267
+60s,Mean Baseline,None (Train Mean),9,False,0.5207,1.5738,-0.0,0.0096,14.4925,0.5207,1.5738,0.9594,0.4656,1.136,0.0,-0.0
+60s,Linear Regression,Baseline (9 feats),9,False,0.5806,1.0128,0.5858,0.1022,13.6541,0.5806,1.0128,0.9832,0.39,0.6922,0.6287,0.0
+60s,Ridge Regression (alpha=1.0),Baseline (9 feats),9,True,0.5811,1.0129,0.5857,0.1017,13.6538,0.5811,1.0129,0.9832,0.39,0.6922,0.6287,0.0
+60s,Linear Regression,Extended (21 feats),21,True,0.1601,0.7232,0.7888,0.0202,14.725,0.1601,0.7232,0.9914,0.1318,0.4706,0.8284,0.0
+60s,Ridge Regression (alpha=1.0),Extended (21 feats),21,True,0.1598,0.7228,0.789,0.02,14.7154,0.1598,0.7228,0.9914,0.1317,0.4706,0.8284,0.0
+300s,Naive Persistence,None (DeltaT=0),9,False,2.3426,6.4399,-0.0008,0.1811,47.2771,2.3426,6.4399,0.3331,2.1373,4.7685,-0.0008,0.1388
+300s,Mean Baseline,None (Train Mean),9,False,2.3498,6.4375,-0.0,0.0422,47.4159,2.3498,6.4375,0.3336,2.1305,4.7665,0.0,0.0
+300s,Linear Regression,Baseline (9 feats),9,False,2.8754,5.011,0.3941,0.8484,43.9117,2.8754,5.011,0.5962,1.7334,3.219,0.5439,-0.0
+300s,Ridge Regression (alpha=1.0),Baseline (9 feats),9,True,2.8758,5.0108,0.3941,0.8469,43.9081,2.8758,5.0108,0.5963,1.7339,3.219,0.5439,0.0
+300s,Linear Regression,Extended (21 feats),21,True,2.2582,4.5396,0.5027,0.6367,45.0174,2.2582,4.5396,0.6686,1.3654,2.9118,0.6268,0.0
+300s,Ridge Regression (alpha=1.0),Extended (21 feats),21,True,2.2629,4.5423,0.5021,0.6375,45.0123,2.2629,4.5423,0.6682,1.3626,2.9119,0.6268,0.0

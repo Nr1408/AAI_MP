@@ -1,0 +1,182 @@
+{
+  "baseline_60s": {
+    "experiment": "baseline_60s",
+    "status": "PASS",
+    "checks": {
+      "no_target_in_features": {
+        "passed": true,
+        "details": "Target target_DeltaT_60s in features: False"
+      },
+      "no_future_cols_in_features": {
+        "passed": true,
+        "details": "Future-labeled columns in features: False"
+      },
+      "zero_feature_nans": {
+        "passed": true,
+        "details": "Feature NaNs - Train: 0, Val: 0, Test: 0"
+      },
+      "zero_target_nans": {
+        "passed": true,
+        "details": "Target NaNs - Train: 0, Val: 0, Test: 0"
+      },
+      "zero_run_overlap_between_splits": {
+        "passed": true,
+        "details": "Train/Val overlap: set(), Train/Test overlap: set(), Val/Test overlap: set()"
+      },
+      "scaler_fitted_on_train_only": {
+        "passed": true,
+        "details": "Scaler features: 9, Expected: 9"
+      }
+    }
+  },
+  "extended_60s": {
+    "experiment": "extended_60s",
+    "status": "PASS",
+    "checks": {
+      "no_target_in_features": {
+        "passed": true,
+        "details": "Target target_DeltaT_60s in features: False"
+      },
+      "no_future_cols_in_features": {
+        "passed": true,
+        "details": "Future-labeled columns in features: False"
+      },
+      "zero_feature_nans": {
+        "passed": true,
+        "details": "Feature NaNs - Train: 0, Val: 0, Test: 0"
+      },
+      "zero_target_nans": {
+        "passed": true,
+        "details": "Target NaNs - Train: 0, Val: 0, Test: 0"
+      },
+      "zero_run_overlap_between_splits": {
+        "passed": true,
+        "details": "Train/Val overlap: set(), Train/Test overlap: set(), Val/Test overlap: set()"
+      },
+      "scaler_fitted_on_train_only": {
+        "passed": true,
+        "details": "Scaler features: 21, Expected: 21"
+      }
+    }
+  },
+  "ablation_60s": {
+    "experiment": "ablation_60s",
+    "status": "PASS",
+    "checks": {
+      "no_target_in_features": {
+        "passed": true,
+        "details": "Target target_DeltaT_60s in features: False"
+      },
+      "no_future_cols_in_features": {
+        "passed": true,
+        "details": "Future-labeled columns in features: False"
+      },
+      "zero_feature_nans": {
+        "passed": true,
+        "details": "Feature NaNs - Train: 0, Val: 0, Test: 0"
+      },
+      "zero_target_nans": {
+        "passed": true,
+        "details": "Target NaNs - Train: 0, Val: 0, Test: 0"
+      },
+      "zero_run_overlap_between_splits": {
+        "passed": true,
+        "details": "Train/Val overlap: set(), Train/Test overlap: set(), Val/Test overlap: set()"
+      },
+      "scaler_fitted_on_train_only": {
+        "passed": true,
+        "details": "Scaler features: 23, Expected: 23"
+      }
+    }
+  },
+  "baseline_300s": {
+    "experiment": "baseline_300s",
+    "status": "PASS",
+    "checks": {
+      "no_target_in_features": {
+        "passed": true,
+        "details": "Target target_DeltaT_300s in features: False"
+      },
+      "no_future_cols_in_features": {
+        "passed": true,
+        "details": "Future-labeled columns in features: False"
+      },
+      "zero_feature_nans": {
+        "passed": true,
+        "details": "Feature NaNs - Train: 0, Val: 0, Test: 0"
+      },
+      "zero_target_nans": {
+        "passed": true,
+        "details": "Target NaNs - Train: 0, Val: 0, Test: 0"
+      },
+      "zero_run_overlap_between_splits": {
+        "passed": true,
+        "details": "Train/Val overlap: set(), Train/Test overlap: set(), Val/Test overlap: set()"
+      },
+      "scaler_fitted_on_train_only": {
+        "passed": true,
+        "details": "Scaler features: 9, Expected: 9"
+      }
+    }
+  },
+  "extended_300s": {
+    "experiment": "extended_300s",
+    "status": "PASS",
+    "checks": {
+      "no_target_in_features": {
+        "passed": true,
+        "details": "Target target_DeltaT_300s in features: False"
+      },
+      "no_future_cols_in_features": {
+        "passed": true,
+        "details": "Future-labeled columns in features: False"
+      },
+      "zero_feature_nans": {
+        "passed": true,
+        "details": "Feature NaNs - Train: 0, Val: 0, Test: 0"
+      },
+      "zero_target_nans": {
+        "passed": true,
+        "details": "Target NaNs - Train: 0, Val: 0, Test: 0"
+      },
+      "zero_run_overlap_between_splits": {
+        "passed": true,
+        "details": "Train/Val overlap: set(), Train/Test overlap: set(), Val/Test overlap: set()"
+      },
+      "scaler_fitted_on_train_only": {
+        "passed": true,
+        "details": "Scaler features: 21, Expected: 21"
+      }
+    }
+  },
+  "ablation_300s": {
+    "experiment": "ablation_300s",
+    "status": "PASS",
+    "checks": {
+      "no_target_in_features": {
+        "passed": true,
+        "details": "Target target_DeltaT_300s in features: False"
+      },
+      "no_future_cols_in_features": {
+        "passed": true,
+        "details": "Future-labeled columns in features: False"
+      },
+      "zero_feature_nans": {
+        "passed": true,
+        "details": "Feature NaNs - Train: 0, Val: 0, Test: 0"
+      },
+      "zero_target_nans": {
+        "passed": true,
+        "details": "Target NaNs - Train: 0, Val: 0, Test: 0"
+      },
+      "zero_run_overlap_between_splits": {
+        "passed": true,
+        "details": "Train/Val overlap: set(), Train/Test overlap: set(), Val/Test overlap: set()"
+      },
+      "scaler_fitted_on_train_only": {
+        "passed": true,
+        "details": "Scaler features: 23, Expected: 23"
+      }
+    }
+  }
+}

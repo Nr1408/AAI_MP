@@ -1,0 +1,389 @@
+{
+  "overall_status": "PASS",
+  "test_runs_locked": [
+    "ID18",
+    "ID19"
+  ],
+  "experiments": [
+    {
+      "horizon": "60s",
+      "feature_set": "Baseline (9 feats)",
+      "target_column": "target_DeltaT_60s",
+      "overall_status": "PASS",
+      "checks": {
+        "id18_absent_from_training": {
+          "status": "PASS",
+          "train_runs": [
+            "ID01",
+            "ID02",
+            "ID11",
+            "ID12",
+            "ID13",
+            "ID14",
+            "ID15",
+            "ID17",
+            "ID20",
+            "ID21"
+          ],
+          "test_run": "ID18"
+        },
+        "id19_absent_from_training": {
+          "status": "PASS",
+          "train_runs": [
+            "ID01",
+            "ID02",
+            "ID11",
+            "ID12",
+            "ID13",
+            "ID14",
+            "ID15",
+            "ID17",
+            "ID20",
+            "ID21"
+          ],
+          "test_run": "ID19"
+        },
+        "id18_absent_from_cv": {
+          "status": "PASS",
+          "val_runs": [
+            "ID16",
+            "ID22"
+          ]
+        },
+        "id19_absent_from_cv": {
+          "status": "PASS",
+          "val_runs": [
+            "ID16",
+            "ID22"
+          ]
+        },
+        "no_target_in_features": {
+          "status": "PASS",
+          "found": []
+        },
+        "expected_feature_count": {
+          "status": "PASS",
+          "expected": 9,
+          "found": 9
+        },
+        "no_future_columns_in_features": {
+          "status": "PASS",
+          "found": []
+        },
+        "group_aware_cv_used": {
+          "status": "PASS",
+          "cv_type": "GroupKFold(n_splits=5)",
+          "group_key": "exp_id"
+        },
+        "train_val_disjoint": {
+          "status": "PASS",
+          "overlap": []
+        },
+        "zero_missing_values": {
+          "status": "PASS",
+          "train_nan_X": 0,
+          "train_nan_y": 0,
+          "val_nan_X": 0,
+          "val_nan_y": 0
+        },
+        "hp_selection_via_train_cv_only": {
+          "status": "PASS",
+          "note": "GridSearchCV uses groups from training runs only; val/test rows never enter the CV split."
+        },
+        "validation_not_used_for_cv": {
+          "status": "PASS",
+          "note": "ID16 and ID22 are evaluated only after CV-selected model is re-fitted on all training data."
+        },
+        "test_data_not_accessed": {
+          "status": "PASS",
+          "note": "ID18 and ID19 CSVs are never read in Phase 5."
+        }
+      }
+    },
+    {
+      "horizon": "60s",
+      "feature_set": "Extended (21 feats)",
+      "target_column": "target_DeltaT_60s",
+      "overall_status": "PASS",
+      "checks": {
+        "id18_absent_from_training": {
+          "status": "PASS",
+          "train_runs": [
+            "ID01",
+            "ID02",
+            "ID11",
+            "ID12",
+            "ID13",
+            "ID14",
+            "ID15",
+            "ID17",
+            "ID20",
+            "ID21"
+          ],
+          "test_run": "ID18"
+        },
+        "id19_absent_from_training": {
+          "status": "PASS",
+          "train_runs": [
+            "ID01",
+            "ID02",
+            "ID11",
+            "ID12",
+            "ID13",
+            "ID14",
+            "ID15",
+            "ID17",
+            "ID20",
+            "ID21"
+          ],
+          "test_run": "ID19"
+        },
+        "id18_absent_from_cv": {
+          "status": "PASS",
+          "val_runs": [
+            "ID16",
+            "ID22"
+          ]
+        },
+        "id19_absent_from_cv": {
+          "status": "PASS",
+          "val_runs": [
+            "ID16",
+            "ID22"
+          ]
+        },
+        "no_target_in_features": {
+          "status": "PASS",
+          "found": []
+        },
+        "expected_feature_count": {
+          "status": "PASS",
+          "expected": 21,
+          "found": 21
+        },
+        "no_future_columns_in_features": {
+          "status": "PASS",
+          "found": []
+        },
+        "group_aware_cv_used": {
+          "status": "PASS",
+          "cv_type": "GroupKFold(n_splits=5)",
+          "group_key": "exp_id"
+        },
+        "train_val_disjoint": {
+          "status": "PASS",
+          "overlap": []
+        },
+        "zero_missing_values": {
+          "status": "PASS",
+          "train_nan_X": 0,
+          "train_nan_y": 0,
+          "val_nan_X": 0,
+          "val_nan_y": 0
+        },
+        "hp_selection_via_train_cv_only": {
+          "status": "PASS",
+          "note": "GridSearchCV uses groups from training runs only; val/test rows never enter the CV split."
+        },
+        "validation_not_used_for_cv": {
+          "status": "PASS",
+          "note": "ID16 and ID22 are evaluated only after CV-selected model is re-fitted on all training data."
+        },
+        "test_data_not_accessed": {
+          "status": "PASS",
+          "note": "ID18 and ID19 CSVs are never read in Phase 5."
+        }
+      }
+    },
+    {
+      "horizon": "300s",
+      "feature_set": "Baseline (9 feats)",
+      "target_column": "target_DeltaT_300s",
+      "overall_status": "PASS",
+      "checks": {
+        "id18_absent_from_training": {
+          "status": "PASS",
+          "train_runs": [
+            "ID01",
+            "ID02",
+            "ID11",
+            "ID12",
+            "ID13",
+            "ID14",
+            "ID15",
+            "ID17",
+            "ID20",
+            "ID21"
+          ],
+          "test_run": "ID18"
+        },
+        "id19_absent_from_training": {
+          "status": "PASS",
+          "train_runs": [
+            "ID01",
+            "ID02",
+            "ID11",
+            "ID12",
+            "ID13",
+            "ID14",
+            "ID15",
+            "ID17",
+            "ID20",
+            "ID21"
+          ],
+          "test_run": "ID19"
+        },
+        "id18_absent_from_cv": {
+          "status": "PASS",
+          "val_runs": [
+            "ID16",
+            "ID22"
+          ]
+        },
+        "id19_absent_from_cv": {
+          "status": "PASS",
+          "val_runs": [
+            "ID16",
+            "ID22"
+          ]
+        },
+        "no_target_in_features": {
+          "status": "PASS",
+          "found": []
+        },
+        "expected_feature_count": {
+          "status": "PASS",
+          "expected": 9,
+          "found": 9
+        },
+        "no_future_columns_in_features": {
+          "status": "PASS",
+          "found": []
+        },
+        "group_aware_cv_used": {
+          "status": "PASS",
+          "cv_type": "GroupKFold(n_splits=5)",
+          "group_key": "exp_id"
+        },
+        "train_val_disjoint": {
+          "status": "PASS",
+          "overlap": []
+        },
+        "zero_missing_values": {
+          "status": "PASS",
+          "train_nan_X": 0,
+          "train_nan_y": 0,
+          "val_nan_X": 0,
+          "val_nan_y": 0
+        },
+        "hp_selection_via_train_cv_only": {
+          "status": "PASS",
+          "note": "GridSearchCV uses groups from training runs only; val/test rows never enter the CV split."
+        },
+        "validation_not_used_for_cv": {
+          "status": "PASS",
+          "note": "ID16 and ID22 are evaluated only after CV-selected model is re-fitted on all training data."
+        },
+        "test_data_not_accessed": {
+          "status": "PASS",
+          "note": "ID18 and ID19 CSVs are never read in Phase 5."
+        }
+      }
+    },
+    {
+      "horizon": "300s",
+      "feature_set": "Extended (21 feats)",
+      "target_column": "target_DeltaT_300s",
+      "overall_status": "PASS",
+      "checks": {
+        "id18_absent_from_training": {
+          "status": "PASS",
+          "train_runs": [
+            "ID01",
+            "ID02",
+            "ID11",
+            "ID12",
+            "ID13",
+            "ID14",
+            "ID15",
+            "ID17",
+            "ID20",
+            "ID21"
+          ],
+          "test_run": "ID18"
+        },
+        "id19_absent_from_training": {
+          "status": "PASS",
+          "train_runs": [
+            "ID01",
+            "ID02",
+            "ID11",
+            "ID12",
+            "ID13",
+            "ID14",
+            "ID15",
+            "ID17",
+            "ID20",
+            "ID21"
+          ],
+          "test_run": "ID19"
+        },
+        "id18_absent_from_cv": {
+          "status": "PASS",
+          "val_runs": [
+            "ID16",
+            "ID22"
+          ]
+        },
+        "id19_absent_from_cv": {
+          "status": "PASS",
+          "val_runs": [
+            "ID16",
+            "ID22"
+          ]
+        },
+        "no_target_in_features": {
+          "status": "PASS",
+          "found": []
+        },
+        "expected_feature_count": {
+          "status": "PASS",
+          "expected": 21,
+          "found": 21
+        },
+        "no_future_columns_in_features": {
+          "status": "PASS",
+          "found": []
+        },
+        "group_aware_cv_used": {
+          "status": "PASS",
+          "cv_type": "GroupKFold(n_splits=5)",
+          "group_key": "exp_id"
+        },
+        "train_val_disjoint": {
+          "status": "PASS",
+          "overlap": []
+        },
+        "zero_missing_values": {
+          "status": "PASS",
+          "train_nan_X": 0,
+          "train_nan_y": 0,
+          "val_nan_X": 0,
+          "val_nan_y": 0
+        },
+        "hp_selection_via_train_cv_only": {
+          "status": "PASS",
+          "note": "GridSearchCV uses groups from training runs only; val/test rows never enter the CV split."
+        },
+        "validation_not_used_for_cv": {
+          "status": "PASS",
+          "note": "ID16 and ID22 are evaluated only after CV-selected model is re-fitted on all training data."
+        },
+        "test_data_not_accessed": {
+          "status": "PASS",
+          "note": "ID18 and ID19 CSVs are never read in Phase 5."
+        }
+      }
+    }
+  ]
+}

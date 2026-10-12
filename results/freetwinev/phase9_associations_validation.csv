@@ -1,0 +1,11 @@
+Split,Horizon,Variable,Spearman_Correlation_With_Predicted_Future_Temperature,N
+validation,300s,liquid_flow,-0.4864825002071257,4417
+validation,300s,temp_inlet_C,0.5450920588621789,4417
+validation,300s,current_abs,0.08978494496918575,4417
+validation,300s,T_cell_spread,-0.1216901566371024,4417
+validation,300s,predicted_future_temperature,0.9999999999999998,4417
+validation,60s,liquid_flow,-0.43247253925069684,4513
+validation,60s,temp_inlet_C,0.4194740732600489,4513
+validation,60s,current_abs,0.14001283341679763,4513
+validation,60s,T_cell_spread,0.03267631822594655,4513
+validation,60s,predicted_future_temperature,1.0,4513

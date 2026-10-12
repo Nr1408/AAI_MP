@@ -1,0 +1,89 @@
+{
+  "split_protocol": {
+    "train_runs": [
+      "ID01",
+      "ID02",
+      "ID11",
+      "ID12",
+      "ID13",
+      "ID14",
+      "ID15",
+      "ID17",
+      "ID20",
+      "ID21"
+    ],
+    "val_runs": [
+      "ID16",
+      "ID22"
+    ],
+    "test_runs": [
+      "ID18",
+      "ID19"
+    ]
+  },
+  "feature_experiments": {
+    "baseline": 9,
+    "extended": 21,
+    "ablation": 23
+  },
+  "horizons": {
+    "60s": 12,
+    "300s": 60
+  },
+  "scaler_selected": "StandardScaler",
+  "scaler_rationale": "StandardScaler provides stable variance-normalized scaling (mean ~ 0, std = 1) across all operational regimes. In contrast, RobustScaler suffered severe numerical inflation (z ~ -48,000) on current-related features because extended rest steps collapse their interquartile range (IQR ~ 0.0025A) to near-zero sensor noise.",
+  "dataset_summary": {
+    "60s": {
+      "baseline": {
+        "features_count": 9,
+        "train_rows": 14117,
+        "val_rows": 4513,
+        "test_rows": 3449,
+        "total_rows": 22079,
+        "scaler_path": "results/freetwinev/preprocessed\\scalers\\scaler_baseline_60s.joblib"
+      },
+      "extended": {
+        "features_count": 21,
+        "train_rows": 14117,
+        "val_rows": 4513,
+        "test_rows": 3449,
+        "total_rows": 22079,
+        "scaler_path": "results/freetwinev/preprocessed\\scalers\\scaler_extended_60s.joblib"
+      },
+      "ablation": {
+        "features_count": 23,
+        "train_rows": 14117,
+        "val_rows": 4513,
+        "test_rows": 3449,
+        "total_rows": 22079,
+        "scaler_path": "results/freetwinev/preprocessed\\scalers\\scaler_ablation_60s.joblib"
+      }
+    },
+    "300s": {
+      "baseline": {
+        "features_count": 9,
+        "train_rows": 13637,
+        "val_rows": 4417,
+        "test_rows": 3353,
+        "total_rows": 21407,
+        "scaler_path": "results/freetwinev/preprocessed\\scalers\\scaler_baseline_300s.joblib"
+      },
+      "extended": {
+        "features_count": 21,
+        "train_rows": 13637,
+        "val_rows": 4417,
+        "test_rows": 3353,
+        "total_rows": 21407,
+        "scaler_path": "results/freetwinev/preprocessed\\scalers\\scaler_extended_300s.joblib"
+      },
+      "ablation": {
+        "features_count": 23,
+        "train_rows": 13637,
+        "val_rows": 4417,
+        "test_rows": 3353,
+        "total_rows": 21407,
+        "scaler_path": "results/freetwinev/preprocessed\\scalers\\scaler_ablation_300s.joblib"
+      }
+    }
+  }
+}

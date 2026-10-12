@@ -1,0 +1,131 @@
+{
+  "status": "PASS",
+  "test_rows_loaded": true,
+  "test_predictions_generated": true,
+  "selected_models": {
+    "60s": {
+      "model": "Ridge Regression",
+      "specification": "Ridge(alpha=1.0)",
+      "target": "target_DeltaT_60s",
+      "absolute_target": "target_T_cell_max_60s"
+    },
+    "300s": {
+      "model": "Linear Regression",
+      "specification": "LinearRegression()",
+      "target": "target_DeltaT_300s",
+      "absolute_target": "target_T_cell_max_300s"
+    }
+  },
+  "feature_check": {
+    "status": "PASS",
+    "feature_count": 21,
+    "feature_columns": [
+      "current",
+      "voltage",
+      "SOC",
+      "liquid_flow",
+      "temp_inlet_C",
+      "temp_ambient_C",
+      "T_cell_max",
+      "T_cell_spread",
+      "T_plate_mean",
+      "current_squared",
+      "current_abs",
+      "power_gross",
+      "current_mean_60s",
+      "current_mean_300s",
+      "current_sq_mean_60s",
+      "current_sq_mean_300s",
+      "T_cell_max_diff_30s",
+      "T_cell_max_diff_60s",
+      "T_cell_to_plate_diff",
+      "T_cell_to_inlet_diff",
+      "flow_x_inlet_temp"
+    ],
+    "manifest_path": "C:\\AAI MP\\results\\freetwinev\\preprocessed\\feature_manifest.json"
+  },
+  "protocol_check": {
+    "status": "PASS",
+    "scaler": "StandardScaler",
+    "train_runs": [
+      "ID01",
+      "ID02",
+      "ID11",
+      "ID12",
+      "ID13",
+      "ID14",
+      "ID15",
+      "ID17",
+      "ID20",
+      "ID21"
+    ],
+    "validation_runs": [
+      "ID16",
+      "ID22"
+    ],
+    "test_runs": [
+      "ID18",
+      "ID19"
+    ],
+    "split_manifest": "C:\\AAI MP\\results\\freetwinev\\preprocessed\\split_manifest.csv",
+    "preprocessing_config": "C:\\AAI MP\\results\\freetwinev\\preprocessed\\preprocessing_config.json"
+  },
+  "selection_check": {
+    "status": "PASS",
+    "selection_rule": [
+      "lowest validation MAE",
+      "lowest validation RMSE",
+      "highest validation R2"
+    ],
+    "evidence_source": "C:\\AAI MP\\results\\freetwinev\\baseline_results.csv",
+    "evidence": [
+      {
+        "horizon": "60s",
+        "model": "Ridge Regression (alpha=1.0)",
+        "feature_set": "Extended (21 feats)",
+        "validation_mae": 0.1598,
+        "validation_rmse": 0.7228,
+        "validation_r2": 0.789
+      },
+      {
+        "horizon": "300s",
+        "model": "Linear Regression",
+        "feature_set": "Extended (21 feats)",
+        "validation_mae": 2.2582,
+        "validation_rmse": 4.5396,
+        "validation_r2": 0.5027
+      }
+    ],
+    "selection_based_only_on_training_and_validation": true
+  },
+  "preprocessing_frozen": true,
+  "test_tuning": false,
+  "test_metrics_used_for_selection": false,
+  "phase": "Phase 6",
+  "execution_timestamp_pre_test": "2026-10-01T15:03:25.793476",
+  "test_data_access_gate": "PASS",
+  "execution_timestamp_post_test": "2026-10-01T15:03:28.092699",
+  "test_row_counts": {
+    "60s": 3449,
+    "300s": 3353
+  },
+  "expected_prediction_count": 6802,
+  "actual_prediction_count": 6802,
+  "post_evaluation_checks": {
+    "exact_test_membership": true,
+    "no_other_test_runs_evaluated": true,
+    "train_validation_test_disjoint": true,
+    "no_target_or_future_columns_in_X": true,
+    "exactly_21_extended_features": true,
+    "preprocessing_frozen": true,
+    "model_specification_frozen_before_test": true,
+    "no_test_hyperparameter_tuning": true,
+    "test_metrics_not_used_for_selection": true,
+    "prediction_count_matches_test_rows": true,
+    "no_missing_predictions": true,
+    "no_duplicate_prediction_rows": true
+  },
+  "overall_status": "PASS",
+  "final_test_metrics_computed_after_predictions": true,
+  "post_test_tuning": false
+}

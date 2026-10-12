@@ -1,0 +1,13 @@
+Sensor,Cell,Channel_TH,Axial_Position,Hottest_Count,Hottest_Percent,Overall_Mean_C,Overall_Max_C
+temp_cell-1_TH20,1,TH20,Top,14394,64.7,22.57,73.04
+temp_cell-3_TH15,3,TH15,Middle,3606,16.21,21.62,63.04
+temp_cell-4_TH11,4,TH11,Top,2792,12.55,22.13,67.22
+temp_cell-2_TH17,2,TH17,Top,507,2.28,21.94,69.58
+temp_cell-1_TH22,1,TH22,Bottom (near plate),455,2.05,20.06,49.31
+temp_cell-3_TH14,3,TH14,Top,436,1.96,22.01,68.16
+temp_cell-4_TH13,4,TH13,Bottom (near plate),57,0.26,20.03,49.58
+temp_cell-1_TH21,1,TH21,Middle,0,0.0,21.69,65.54
+temp_cell-2_TH18,2,TH18,Middle,0,0.0,21.37,64.05
+temp_cell-2_TH19,2,TH19,Bottom (near plate),0,0.0,19.75,49.89
+temp_cell-3_TH16,3,TH16,Bottom (near plate),0,0.0,19.56,46.98
+temp_cell-4_TH12,4,TH12,Middle,0,0.0,21.65,62.79

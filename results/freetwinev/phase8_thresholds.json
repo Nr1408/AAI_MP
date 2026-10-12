@@ -1,0 +1,41 @@
+{
+  "method": "Validation-only descriptive percentiles",
+  "validation_runs": [
+    "ID16",
+    "ID22"
+  ],
+  "temperature_units": "deg C",
+  "engineering_cutoff_c": 70.0,
+  "engineering_cutoff_source": "reports/freetwinev_dataset_assessment.md and reports/freetwinev_eda.md",
+  "percentile_interpretation": "P75/P90/P99 describe the validation forecast distribution; they are not certified safety limits.",
+  "persistence_samples": 12,
+  "persistence_seconds": 60,
+  "thresholds_by_horizon": {
+    "300s": {
+      "future_temperature_p75_c": 21.030864044180365,
+      "future_temperature_p90_c": 23.146110214085812,
+      "future_temperature_p99_c": 62.603429969914835,
+      "predicted_delta_p90_c": 2.2727446671663,
+      "recent_trend_p90_c": 0.04983745508999387,
+      "spread_p90_c": 6.490782598446378,
+      "source_rows": 4417,
+      "source_runs": [
+        "ID16",
+        "ID22"
+      ]
+    },
+    "60s": {
+      "future_temperature_p75_c": 20.328803037063075,
+      "future_temperature_p90_c": 24.06070265744674,
+      "future_temperature_p99_c": 54.732253034095535,
+      "predicted_delta_p90_c": 0.1735560240814746,
+      "recent_trend_p90_c": 0.04720333761200654,
+      "spread_p90_c": 6.434262458157231,
+      "source_rows": 4513,
+      "source_runs": [
+        "ID16",
+        "ID22"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+Exp_ID,Directory,Split,Current_Load,Coolant_Temp,Flow_Rate,Raw_Rows,Valid_60s_Rows,Valid_300s_Rows,Notes
+ID01,ID01_20251126_150908248,train,-20A (~1.1C),25°C,1.5 L/min,2413,2401,2353,"Light discharge, warm coolant"
+ID02,ID02_20251127_141017875,train,-40A (~2.2C),25°C,1.5 L/min,728,716,668,"Moderate discharge, warm coolant"
+ID11,ID11_20251128_102057991,train,-40A (~2.2C),15°C,1.5 L/min,1071,1059,1011,Standard baseline run
+ID12,ID12_20251128_134031152,train,-80A (~4.4C),15°C,1.5 L/min,1153,1141,1093,"Heavy discharge, high flow"
+ID13,ID13_20251201_113728861,train,-120A (~6.7C),15°C,1.5 L/min,3012,3000,2952,"Extreme discharge, full cycles"
+ID14,ID14_20251201_163543484,train,-40A (~2.2C),15°C,0.5 L/min,904,892,844,"Moderate discharge, medium flow"
+ID15,ID15_20251202_133030514,train,-80A (~4.4C),15°C,0.5 L/min,1117,1105,1057,"Heavy discharge, medium flow"
+ID16,ID16_20251203_103357473,val,-120A (~6.7C),15°C,0.5 L/min,2915,2903,2855,"Validation: extreme load, medium flow"
+ID17,ID17_20251204_111640041,train,-40A (~2.2C),15°C,0.1 L/min,1182,1170,1122,"Moderate discharge, starved cooling"
+ID18,ID18_20251204_144331500,test,-80A (~4.4C),15°C,0.1 L/min,1254,1242,1194,"Test: heavy load, starved cooling"
+ID19,ID19_20251205_120936377,test,-120A (~6.7C),15°C,0.1 L/min,2219,2207,2159,"Test: extreme load, starved cooling"
+ID20,ID20_20251205_160840427,train,-40A (~2.2C),15°C,1.5 L/min,1224,1212,1164,Repeatability check of ID11
+ID21,ID21_20251209_144434492,train,-40A (~2.2C),7°C,1.5 L/min,1433,1421,1373,"Chilled coolant, moderate load"
+ID22,ID22_20251210_144332381,val,-80A (~4.4C),8°C,2.4 L/min,1622,1610,1562,"Validation: chilled coolant, heavy load"

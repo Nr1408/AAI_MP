@@ -1,0 +1,67 @@
+[
+  {
+    "exp_id": "ID18",
+    "horizon": "300s",
+    "n": 1194,
+    "max_temp": 68.08,
+    "max_flow": 0.1014,
+    "risk_counts": {
+      "High": 460,
+      "Normal": 734
+    },
+    "rec_counts": {
+      "HIGH_COOLING_ATTENTION": 460,
+      "MAINTAIN": 734
+    }
+  },
+  {
+    "exp_id": "ID19",
+    "horizon": "300s",
+    "n": 2159,
+    "max_temp": 69.49,
+    "max_flow": 0.1666,
+    "risk_counts": {
+      "High": 741,
+      "Normal": 1379,
+      "Elevated": 39
+    },
+    "rec_counts": {
+      "HIGH_COOLING_ATTENTION": 780,
+      "MAINTAIN": 1379
+    }
+  },
+  {
+    "exp_id": "ID18",
+    "horizon": "60s",
+    "n": 1242,
+    "max_temp": 68.08,
+    "max_flow": 0.1014,
+    "risk_counts": {
+      "High": 550,
+      "Elevated": 10,
+      "Normal": 682
+    },
+    "rec_counts": {
+      "HIGH_COOLING_ATTENTION": 560,
+      "MAINTAIN": 682
+    }
+  },
+  {
+    "exp_id": "ID19",
+    "horizon": "60s",
+    "n": 2207,
+    "max_temp": 69.49,
+    "max_flow": 0.1666,
+    "risk_counts": {
+      "Elevated": 81,
+      "High": 1074,
+      "Normal": 1043,
+      "Critical": 9
+    },
+    "rec_counts": {
+      "HIGH_COOLING_ATTENTION": 1155,
+      "MAINTAIN": 1043,
+      "CRITICAL_PROTECTIVE_ACTION": 9
+    }
+  }
+]

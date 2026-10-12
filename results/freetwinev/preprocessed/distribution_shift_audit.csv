@@ -1,0 +1,107 @@
+Experiment,Feature,Train_Range,Val_Range,Test_Range,Train_Mean,Val_Mean,Test_Mean,Shift_Detected,Shift_Description
+baseline_60s,current,"[-120.46, 15.06]","[-120.44, 15.06]","[-120.45, 15.06]",-6.65,-2.58,-3.41,True,Test max (15.06) > Train max (15.06)
+baseline_60s,voltage,"[2.52, 4.20]","[2.55, 4.20]","[2.55, 4.20]",3.66,3.88,3.77,False,Within train bounds
+baseline_60s,SOC,"[0.00, 100.00]","[4.34, 100.00]","[3.71, 100.00]",56.19,72.21,60.46,False,Within train bounds
+baseline_60s,liquid_flow,"[0.00, 86.27]","[0.00, 90.94]","[0.00, 0.17]",1.12,1.17,0.09,False,Within train bounds
+baseline_60s,temp_inlet_C,"[4.87, 25.66]","[4.87, 22.37]","[15.07, 22.80]",17.14,12.62,15.86,False,Within train bounds
+baseline_60s,temp_ambient_C,"[21.83, 24.89]","[20.67, 24.58]","[22.39, 24.72]",23.18,22.18,23.11,False,Within train bounds
+baseline_60s,T_cell_max,"[12.42, 73.04]","[12.35, 70.67]","[18.22, 69.49]",23.05,19.54,23.32,False,Within train bounds
+baseline_60s,T_cell_spread,"[0.31, 26.52]","[0.39, 26.10]","[0.51, 29.27]",2.81,3.26,3.39,True,Test max (29.27) > Train max (26.52)
+baseline_60s,T_plate_mean,"[5.52, 26.38]","[5.61, 23.63]","[15.70, 24.38]",17.67,13.35,17.14,False,Within train bounds
+extended_60s,current,"[-120.46, 15.06]","[-120.44, 15.06]","[-120.45, 15.06]",-6.65,-2.58,-3.41,True,Test max (15.06) > Train max (15.06)
+extended_60s,voltage,"[2.52, 4.20]","[2.55, 4.20]","[2.55, 4.20]",3.66,3.88,3.77,False,Within train bounds
+extended_60s,SOC,"[0.00, 100.00]","[4.34, 100.00]","[3.71, 100.00]",56.19,72.21,60.46,False,Within train bounds
+extended_60s,liquid_flow,"[0.00, 86.27]","[0.00, 90.94]","[0.00, 0.17]",1.12,1.17,0.09,False,Within train bounds
+extended_60s,temp_inlet_C,"[4.87, 25.66]","[4.87, 22.37]","[15.07, 22.80]",17.14,12.62,15.86,False,Within train bounds
+extended_60s,temp_ambient_C,"[21.83, 24.89]","[20.67, 24.58]","[22.39, 24.72]",23.18,22.18,23.11,False,Within train bounds
+extended_60s,T_cell_max,"[12.42, 73.04]","[12.35, 70.67]","[18.22, 69.49]",23.05,19.54,23.32,False,Within train bounds
+extended_60s,T_cell_spread,"[0.31, 26.52]","[0.39, 26.10]","[0.51, 29.27]",2.81,3.26,3.39,True,Test max (29.27) > Train max (26.52)
+extended_60s,T_plate_mean,"[5.52, 26.38]","[5.61, 23.63]","[15.70, 24.38]",17.67,13.35,17.14,False,Within train bounds
+extended_60s,current_squared,"[0.00, 14511.63]","[0.00, 14505.71]","[0.00, 14509.31]",464.65,469.05,625.05,False,Within train bounds
+extended_60s,current_abs,"[0.00, 120.46]","[0.00, 120.44]","[0.00, 120.45]",9.94,6.48,8.62,False,Within train bounds
+extended_60s,power_gross,"[-433.06, 63.31]","[-426.32, 63.30]","[-431.58, 63.30]",-22.0,-7.14,-9.49,False,Within train bounds
+extended_60s,current_mean_60s,"[-120.46, 15.06]","[-120.43, 15.06]","[-120.45, 15.06]",-6.65,-2.58,-3.41,True,Test max (15.06) > Train max (15.06)
+extended_60s,current_mean_300s,"[-120.42, 15.06]","[-120.39, 15.06]","[-120.41, 15.06]",-6.68,-2.58,-3.41,True,Test max (15.06) > Train max (15.06)
+extended_60s,current_sq_mean_60s,"[0.00, 14509.97]","[0.00, 14504.25]","[0.00, 14508.17]",464.56,469.05,625.05,False,Within train bounds
+extended_60s,current_sq_mean_300s,"[0.00, 14501.71]","[0.00, 14493.22]","[0.00, 14497.94]",464.26,469.05,625.05,False,Within train bounds
+extended_60s,T_cell_max_diff_30s,"[-5.89, 7.74]","[-7.24, 8.45]","[-6.74, 7.16]",-0.01,-0.02,-0.02,True,Test min (-6.74) < Train min (-5.89)
+extended_60s,T_cell_max_diff_60s,"[-10.39, 13.96]","[-11.54, 14.47]","[-10.85, 13.20]",-0.03,-0.04,-0.04,True,Test min (-10.85) < Train min (-10.39)
+extended_60s,T_cell_to_plate_diff,"[-0.68, 53.24]","[0.32, 50.31]","[0.30, 45.44]",5.38,6.19,6.18,False,Within train bounds
+extended_60s,T_cell_to_inlet_diff,"[-2.56, 58.21]","[0.15, 55.99]","[0.58, 53.95]",5.91,6.93,7.47,False,Within train bounds
+extended_60s,flow_x_inlet_temp,"[0.00, 1931.43]","[0.00, 2029.66]","[0.00, 3.79]",19.17,16.34,1.46,False,Within train bounds
+ablation_60s,current,"[-120.46, 15.06]","[-120.44, 15.06]","[-120.45, 15.06]",-6.65,-2.58,-3.41,True,Test max (15.06) > Train max (15.06)
+ablation_60s,voltage,"[2.52, 4.20]","[2.55, 4.20]","[2.55, 4.20]",3.66,3.88,3.77,False,Within train bounds
+ablation_60s,SOC,"[0.00, 100.00]","[4.34, 100.00]","[3.71, 100.00]",56.19,72.21,60.46,False,Within train bounds
+ablation_60s,liquid_flow,"[0.00, 86.27]","[0.00, 90.94]","[0.00, 0.17]",1.12,1.17,0.09,False,Within train bounds
+ablation_60s,temp_inlet_C,"[4.87, 25.66]","[4.87, 22.37]","[15.07, 22.80]",17.14,12.62,15.86,False,Within train bounds
+ablation_60s,temp_ambient_C,"[21.83, 24.89]","[20.67, 24.58]","[22.39, 24.72]",23.18,22.18,23.11,False,Within train bounds
+ablation_60s,T_cell_max,"[12.42, 73.04]","[12.35, 70.67]","[18.22, 69.49]",23.05,19.54,23.32,False,Within train bounds
+ablation_60s,T_cell_spread,"[0.31, 26.52]","[0.39, 26.10]","[0.51, 29.27]",2.81,3.26,3.39,True,Test max (29.27) > Train max (26.52)
+ablation_60s,T_plate_mean,"[5.52, 26.38]","[5.61, 23.63]","[15.70, 24.38]",17.67,13.35,17.14,False,Within train bounds
+ablation_60s,current_squared,"[0.00, 14511.63]","[0.00, 14505.71]","[0.00, 14509.31]",464.65,469.05,625.05,False,Within train bounds
+ablation_60s,current_abs,"[0.00, 120.46]","[0.00, 120.44]","[0.00, 120.45]",9.94,6.48,8.62,False,Within train bounds
+ablation_60s,power_gross,"[-433.06, 63.31]","[-426.32, 63.30]","[-431.58, 63.30]",-22.0,-7.14,-9.49,False,Within train bounds
+ablation_60s,current_mean_60s,"[-120.46, 15.06]","[-120.43, 15.06]","[-120.45, 15.06]",-6.65,-2.58,-3.41,True,Test max (15.06) > Train max (15.06)
+ablation_60s,current_mean_300s,"[-120.42, 15.06]","[-120.39, 15.06]","[-120.41, 15.06]",-6.68,-2.58,-3.41,True,Test max (15.06) > Train max (15.06)
+ablation_60s,current_sq_mean_60s,"[0.00, 14509.97]","[0.00, 14504.25]","[0.00, 14508.17]",464.56,469.05,625.05,False,Within train bounds
+ablation_60s,current_sq_mean_300s,"[0.00, 14501.71]","[0.00, 14493.22]","[0.00, 14497.94]",464.26,469.05,625.05,False,Within train bounds
+ablation_60s,T_cell_max_diff_30s,"[-5.89, 7.74]","[-7.24, 8.45]","[-6.74, 7.16]",-0.01,-0.02,-0.02,True,Test min (-6.74) < Train min (-5.89)
+ablation_60s,T_cell_max_diff_60s,"[-10.39, 13.96]","[-11.54, 14.47]","[-10.85, 13.20]",-0.03,-0.04,-0.04,True,Test min (-10.85) < Train min (-10.39)
+ablation_60s,T_cell_to_plate_diff,"[-0.68, 53.24]","[0.32, 50.31]","[0.30, 45.44]",5.38,6.19,6.18,False,Within train bounds
+ablation_60s,T_cell_to_inlet_diff,"[-2.56, 58.21]","[0.15, 55.99]","[0.58, 53.95]",5.91,6.93,7.47,False,Within train bounds
+ablation_60s,flow_x_inlet_temp,"[0.00, 1931.43]","[0.00, 2029.66]","[0.00, 3.79]",19.17,16.34,1.46,False,Within train bounds
+ablation_60s,temp_outlet_C,"[4.95, 25.67]","[4.93, 23.97]","[15.38, 23.49]",17.28,12.79,16.33,False,Within train bounds
+ablation_60s,DeltaT_coolant_C,"[-4.05, 3.18]","[-0.07, 9.05]","[-0.11, 3.24]",0.15,0.17,0.47,True,Test max (3.24) > Train max (3.18)
+baseline_300s,current,"[-120.46, 15.06]","[-120.44, 15.06]","[-120.45, 15.06]",-6.94,-2.64,-3.51,True,Test max (15.06) > Train max (15.06)
+baseline_300s,voltage,"[2.52, 4.20]","[2.55, 4.20]","[2.55, 4.20]",3.68,3.89,3.78,False,Within train bounds
+baseline_300s,SOC,"[0.00, 100.00]","[4.34, 100.00]","[3.71, 100.00]",57.37,72.65,60.72,False,Within train bounds
+baseline_300s,liquid_flow,"[0.00, 86.27]","[0.00, 90.94]","[0.00, 0.17]",1.12,1.18,0.09,False,Within train bounds
+baseline_300s,temp_inlet_C,"[4.87, 25.66]","[4.87, 22.37]","[15.07, 22.80]",17.15,12.67,15.87,False,Within train bounds
+baseline_300s,temp_ambient_C,"[21.83, 24.89]","[20.67, 24.58]","[22.39, 24.72]",23.18,22.17,23.12,False,Within train bounds
+baseline_300s,T_cell_max,"[12.42, 73.04]","[12.35, 70.67]","[18.22, 69.49]",23.17,19.63,23.46,False,Within train bounds
+baseline_300s,T_cell_spread,"[0.31, 26.52]","[0.39, 26.10]","[0.51, 29.27]",2.86,3.27,3.44,True,Test max (29.27) > Train max (26.52)
+baseline_300s,T_plate_mean,"[5.52, 26.38]","[5.63, 23.63]","[15.71, 24.38]",17.69,13.41,17.18,False,Within train bounds
+extended_300s,current,"[-120.46, 15.06]","[-120.44, 15.06]","[-120.45, 15.06]",-6.94,-2.64,-3.51,True,Test max (15.06) > Train max (15.06)
+extended_300s,voltage,"[2.52, 4.20]","[2.55, 4.20]","[2.55, 4.20]",3.68,3.89,3.78,False,Within train bounds
+extended_300s,SOC,"[0.00, 100.00]","[4.34, 100.00]","[3.71, 100.00]",57.37,72.65,60.72,False,Within train bounds
+extended_300s,liquid_flow,"[0.00, 86.27]","[0.00, 90.94]","[0.00, 0.17]",1.12,1.18,0.09,False,Within train bounds
+extended_300s,temp_inlet_C,"[4.87, 25.66]","[4.87, 22.37]","[15.07, 22.80]",17.15,12.67,15.87,False,Within train bounds
+extended_300s,temp_ambient_C,"[21.83, 24.89]","[20.67, 24.58]","[22.39, 24.72]",23.18,22.17,23.12,False,Within train bounds
+extended_300s,T_cell_max,"[12.42, 73.04]","[12.35, 70.67]","[18.22, 69.49]",23.17,19.63,23.46,False,Within train bounds
+extended_300s,T_cell_spread,"[0.31, 26.52]","[0.39, 26.10]","[0.51, 29.27]",2.86,3.27,3.44,True,Test max (29.27) > Train max (26.52)
+extended_300s,T_plate_mean,"[5.52, 26.38]","[5.63, 23.63]","[15.71, 24.38]",17.69,13.41,17.18,False,Within train bounds
+extended_300s,current_squared,"[0.00, 14511.63]","[0.00, 14505.71]","[0.00, 14509.31]",480.21,479.24,642.95,False,Within train bounds
+extended_300s,current_abs,"[0.00, 120.46]","[0.00, 120.44]","[0.00, 120.45]",10.24,6.62,8.87,False,Within train bounds
+extended_300s,power_gross,"[-433.06, 63.31]","[-426.32, 63.30]","[-431.58, 63.30]",-22.96,-7.3,-9.78,False,Within train bounds
+extended_300s,current_mean_60s,"[-120.46, 15.06]","[-120.43, 15.06]","[-120.45, 15.06]",-6.94,-2.64,-3.51,True,Test max (15.06) > Train max (15.06)
+extended_300s,current_mean_300s,"[-120.42, 15.06]","[-120.39, 15.06]","[-120.41, 15.06]",-6.95,-2.64,-3.52,True,Test max (15.06) > Train max (15.06)
+extended_300s,current_sq_mean_60s,"[0.00, 14509.97]","[0.00, 14504.25]","[0.00, 14508.17]",480.12,479.24,642.95,False,Within train bounds
+extended_300s,current_sq_mean_300s,"[0.00, 14501.71]","[0.00, 14493.22]","[0.00, 14497.94]",480.16,479.24,642.95,False,Within train bounds
+extended_300s,T_cell_max_diff_30s,"[-5.89, 7.74]","[-7.24, 8.45]","[-6.74, 7.16]",-0.01,-0.02,-0.02,True,Test min (-6.74) < Train min (-5.89)
+extended_300s,T_cell_max_diff_60s,"[-10.39, 13.96]","[-11.54, 14.47]","[-10.85, 13.20]",-0.03,-0.04,-0.04,True,Test min (-10.85) < Train min (-10.39)
+extended_300s,T_cell_to_plate_diff,"[-0.68, 53.24]","[0.32, 50.31]","[0.30, 45.44]",5.48,6.23,6.28,False,Within train bounds
+extended_300s,T_cell_to_inlet_diff,"[-2.56, 58.21]","[0.15, 55.99]","[0.58, 53.95]",6.02,6.96,7.59,False,Within train bounds
+extended_300s,flow_x_inlet_temp,"[0.00, 1931.43]","[0.00, 2029.66]","[0.00, 3.79]",19.25,16.53,1.47,False,Within train bounds
+ablation_300s,current,"[-120.46, 15.06]","[-120.44, 15.06]","[-120.45, 15.06]",-6.94,-2.64,-3.51,True,Test max (15.06) > Train max (15.06)
+ablation_300s,voltage,"[2.52, 4.20]","[2.55, 4.20]","[2.55, 4.20]",3.68,3.89,3.78,False,Within train bounds
+ablation_300s,SOC,"[0.00, 100.00]","[4.34, 100.00]","[3.71, 100.00]",57.37,72.65,60.72,False,Within train bounds
+ablation_300s,liquid_flow,"[0.00, 86.27]","[0.00, 90.94]","[0.00, 0.17]",1.12,1.18,0.09,False,Within train bounds
+ablation_300s,temp_inlet_C,"[4.87, 25.66]","[4.87, 22.37]","[15.07, 22.80]",17.15,12.67,15.87,False,Within train bounds
+ablation_300s,temp_ambient_C,"[21.83, 24.89]","[20.67, 24.58]","[22.39, 24.72]",23.18,22.17,23.12,False,Within train bounds
+ablation_300s,T_cell_max,"[12.42, 73.04]","[12.35, 70.67]","[18.22, 69.49]",23.17,19.63,23.46,False,Within train bounds
+ablation_300s,T_cell_spread,"[0.31, 26.52]","[0.39, 26.10]","[0.51, 29.27]",2.86,3.27,3.44,True,Test max (29.27) > Train max (26.52)
+ablation_300s,T_plate_mean,"[5.52, 26.38]","[5.63, 23.63]","[15.71, 24.38]",17.69,13.41,17.18,False,Within train bounds
+ablation_300s,current_squared,"[0.00, 14511.63]","[0.00, 14505.71]","[0.00, 14509.31]",480.21,479.24,642.95,False,Within train bounds
+ablation_300s,current_abs,"[0.00, 120.46]","[0.00, 120.44]","[0.00, 120.45]",10.24,6.62,8.87,False,Within train bounds
+ablation_300s,power_gross,"[-433.06, 63.31]","[-426.32, 63.30]","[-431.58, 63.30]",-22.96,-7.3,-9.78,False,Within train bounds
+ablation_300s,current_mean_60s,"[-120.46, 15.06]","[-120.43, 15.06]","[-120.45, 15.06]",-6.94,-2.64,-3.51,True,Test max (15.06) > Train max (15.06)
+ablation_300s,current_mean_300s,"[-120.42, 15.06]","[-120.39, 15.06]","[-120.41, 15.06]",-6.95,-2.64,-3.52,True,Test max (15.06) > Train max (15.06)
+ablation_300s,current_sq_mean_60s,"[0.00, 14509.97]","[0.00, 14504.25]","[0.00, 14508.17]",480.12,479.24,642.95,False,Within train bounds
+ablation_300s,current_sq_mean_300s,"[0.00, 14501.71]","[0.00, 14493.22]","[0.00, 14497.94]",480.16,479.24,642.95,False,Within train bounds
+ablation_300s,T_cell_max_diff_30s,"[-5.89, 7.74]","[-7.24, 8.45]","[-6.74, 7.16]",-0.01,-0.02,-0.02,True,Test min (-6.74) < Train min (-5.89)
+ablation_300s,T_cell_max_diff_60s,"[-10.39, 13.96]","[-11.54, 14.47]","[-10.85, 13.20]",-0.03,-0.04,-0.04,True,Test min (-10.85) < Train min (-10.39)
+ablation_300s,T_cell_to_plate_diff,"[-0.68, 53.24]","[0.32, 50.31]","[0.30, 45.44]",5.48,6.23,6.28,False,Within train bounds
+ablation_300s,T_cell_to_inlet_diff,"[-2.56, 58.21]","[0.15, 55.99]","[0.58, 53.95]",6.02,6.96,7.59,False,Within train bounds
+ablation_300s,flow_x_inlet_temp,"[0.00, 1931.43]","[0.00, 2029.66]","[0.00, 3.79]",19.25,16.53,1.47,False,Within train bounds
+ablation_300s,temp_outlet_C,"[4.95, 25.67]","[4.93, 23.97]","[15.39, 23.49]",17.3,12.85,16.35,False,Within train bounds
+ablation_300s,DeltaT_coolant_C,"[-4.05, 3.18]","[-0.07, 9.05]","[-0.11, 3.24]",0.15,0.18,0.48,True,Test max (3.24) > Train max (3.18)

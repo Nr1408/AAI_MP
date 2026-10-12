@@ -1,0 +1,25 @@
+Horizon,Model,Feature_Set,Run,Num_Samples,MAE,RMSE,R2,Bias,Max_AE,Abs_MAE,Abs_RMSE,Abs_R2
+60s,Naive Persistence,None (DeltaT=0),ID16,2903,0.4763,1.7078,-0.0,0.012,14.4658,0.4763,1.7078,0.9475
+60s,Naive Persistence,None (DeltaT=0),ID22,1610,0.6085,1.2988,-0.0038,0.0801,6.3888,0.6085,1.2988,0.9759
+60s,Mean Baseline,None (Train Mean),ID16,2903,0.4743,1.7079,-0.0001,-0.0147,14.4925,0.4743,1.7079,0.9475
+60s,Mean Baseline,None (Train Mean),ID22,1610,0.6042,1.2974,-0.0017,0.0534,6.4154,0.6042,1.2974,0.976
+60s,Linear Regression,Baseline (9 feats),ID16,2903,0.7263,1.1796,0.5229,0.3221,13.6541,0.7263,1.1796,0.975
+60s,Linear Regression,Baseline (9 feats),ID22,1610,0.3178,0.6053,0.7819,-0.2942,5.7446,0.3178,0.6053,0.9948
+60s,Ridge Regression (alpha=1.0),Baseline (9 feats),ID16,2903,0.7266,1.18,0.5225,0.3217,13.6538,0.7266,1.18,0.9749
+60s,Ridge Regression (alpha=1.0),Baseline (9 feats),ID22,1610,0.3188,0.6043,0.7827,-0.2951,5.7473,0.3188,0.6043,0.9948
+60s,Linear Regression,Extended (21 feats),ID16,2903,0.1846,0.854,0.75,0.0654,14.725,0.1846,0.854,0.9869
+60s,Linear Regression,Extended (21 feats),ID22,1610,0.1159,0.3887,0.9101,-0.0613,5.6655,0.1159,0.3887,0.9978
+60s,Ridge Regression (alpha=1.0),Extended (21 feats),ID16,2903,0.1847,0.8537,0.7501,0.0655,14.7154,0.1847,0.8537,0.9869
+60s,Ridge Regression (alpha=1.0),Extended (21 feats),ID22,1610,0.115,0.3879,0.9105,-0.0622,5.6665,0.115,0.3879,0.9979
+300s,Naive Persistence,None (DeltaT=0),ID16,2855,2.0282,6.8084,-0.0001,0.054,47.2771,2.0282,6.8084,0.1795
+300s,Naive Persistence,None (DeltaT=0),ID22,1562,2.9172,5.7054,-0.0053,0.4133,22.2816,2.9172,5.7054,0.5442
+300s,Mean Baseline,None (Train Mean),ID16,2855,2.0532,6.8087,-0.0002,-0.0848,47.4159,2.0532,6.8087,0.1794
+300s,Mean Baseline,None (Train Mean),ID22,1562,2.892,5.697,-0.0023,0.2744,22.4205,2.892,5.697,0.5456
+300s,Linear Regression,Baseline (9 feats),ID16,2855,3.4961,5.6072,0.3217,1.8791,43.9117,3.4961,5.6072,0.4435
+300s,Linear Regression,Baseline (9 feats),ID22,1562,1.741,3.6796,0.5819,-1.0357,21.5752,1.741,3.6796,0.8104
+300s,Ridge Regression (alpha=1.0),Baseline (9 feats),ID16,2855,3.4969,5.6069,0.3218,1.8787,43.9081,3.4969,5.6069,0.4436
+300s,Ridge Regression (alpha=1.0),Baseline (9 feats),ID22,1562,1.7405,3.6796,0.5819,-1.0391,21.5815,1.7405,3.6796,0.8104
+300s,Linear Regression,Extended (21 feats),ID16,2855,2.6944,5.1104,0.4366,1.4053,45.0174,2.6944,5.1104,0.5377
+300s,Linear Regression,Extended (21 feats),ID22,1562,1.4609,3.2465,0.6745,-0.7681,21.6911,1.4609,3.2465,0.8524
+300s,Ridge Regression (alpha=1.0),Extended (21 feats),ID16,2855,2.6979,5.1125,0.4361,1.4051,45.0123,2.6979,5.1125,0.5373
+300s,Ridge Regression (alpha=1.0),Extended (21 feats),ID22,1562,1.4678,3.2513,0.6735,-0.7657,21.681,1.4678,3.2513,0.852

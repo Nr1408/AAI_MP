@@ -1,0 +1,723 @@
+{
+  "Protocol": [
+    {
+      "row": 1,
+      "values": [
+        "LAB MEASUREMENT PROTOCOL"
+      ]
+    },
+    {
+      "row": 2,
+      "values": [
+        "Measurement type"
+      ]
+    },
+    {
+      "row": 3,
+      "values": [
+        "Molicel INR-21700-P45B Single Channel 1S4P Module parameter identification"
+      ]
+    },
+    {
+      "row": 5,
+      "values": [
+        "Static parameters and constrains"
+      ]
+    },
+    {
+      "row": 6,
+      "values": [
+        "Configuration",
+        null,
+        "1S4P",
+        "SOC 100% datasheet condition",
+        null,
+        "SOC 0% datasheet condition"
+      ]
+    },
+    {
+      "row": 7,
+      "values": [
+        "Voltage min [V]",
+        null,
+        2.5,
+        "Voltage [V]",
+        4.2,
+        "Voltage [V]",
+        2.5
+      ]
+    },
+    {
+      "row": 8,
+      "values": [
+        "Voltage max [V]",
+        null,
+        4.2,
+        "Current [A]",
+        4.5,
+        "Current [A]",
+        4.5
+      ]
+    },
+    {
+      "row": 9,
+      "values": [
+        "Max. cell surf. t. [°C]",
+        null,
+        70,
+        "Cut-off [mA]",
+        50,
+        "Temp [°C]",
+        "Ambient"
+      ]
+    },
+    {
+      "row": 10,
+      "values": [
+        "Ambient temp [°C]",
+        null,
+        23,
+        "Temp [°C]",
+        "Ambient"
+      ]
+    },
+    {
+      "row": 12,
+      "values": [
+        "Measurement variable parameters"
+      ]
+    },
+    {
+      "row": 13,
+      "values": [
+        "Disch. current [A]",
+        null,
+        "[-120; -80; -40; -20]"
+      ]
+    },
+    {
+      "row": 14,
+      "values": [
+        "Charge current [A]",
+        null,
+        "[15]"
+      ]
+    },
+    {
+      "row": 15,
+      "values": [
+        "Coolant temp [°C]",
+        null,
+        "[5; 15; 25]"
+      ]
+    },
+    {
+      "row": 16,
+      "values": [
+        "Flowrate [l/min]",
+        null,
+        "[0.1; 0.5; 1.5]"
+      ]
+    },
+    {
+      "row": 18,
+      "values": [
+        "Measurement objective and protocol description"
+      ]
+    },
+    {
+      "row": 19,
+      "values": [
+        "Create datased for battery thermal network model parameter identification within the operationg envelope defined above.\nTest Matrix is displayed on the worksheet \"Test_Matrix\". Photographs of the real laboratory setup are displayed on the \"Photographs\" worksheet. 3D model can be seen on the \"3D_Model\" worksheet. The placement of temp sensors and the specific measurement points are described in the worksheet \"Sensor_Layout\". Material properties are displayed on the subsequent worksheet \"Materials\". On the worksheet \"Calibration_Table\" calibration process and coefficeints are displayed."
+      ]
+    },
+    {
+      "row": 21,
+      "values": [
+        "Measurement procedure"
+      ]
+    },
+    {
+      "row": 22,
+      "values": [
+        "STEP nr.",
+        "DAQ scan (ON/OFF)",
+        "Action",
+        "Details",
+        null,
+        "Next step condition",
+        "Monitored channel "
+      ]
+    },
+    {
+      "row": 23,
+      "values": [
+        1,
+        "ON*",
+        "Standardized full charge",
+        "datasheet-defined 100% SOC",
+        null,
+        "According to the datasheet",
+        "Current"
+      ]
+    },
+    {
+      "row": 24,
+      "values": [
+        2,
+        "OFF",
+        "Rest",
+        "no load",
+        null,
+        "t>10 min",
+        "Time"
+      ]
+    },
+    {
+      "row": 25,
+      "values": [
+        3,
+        "OFF",
+        "Liquid circuit initialization",
+        "1. Set flowrate without temp. change\n2. clog the primary cooling circuit\n3. If needed, heat the water\n4. set coolant temp and wait for the coolant temp to stabilize",
+        null,
+        "Coolant temp. Setpoint reached +  5 min wait",
+        "1. Flowrate\n2. Chiller temp.\n3. Time"
+      ]
+    },
+    {
+      "row": 26,
+      "values": [
+        4,
+        "ON",
+        "Thermal transition",
+        "Unclog the primary cooling circuit, wait for the TH11 temp to stabilize ",
+        null,
+        "∆T_TH11 <0.1 °C/min",
+        "Chan107_TH11"
+      ]
+    },
+    {
+      "row": 27,
+      "values": [
+        5,
+        "ON",
+        "CC discharge",
+        "Discharge current from the measurement var. parameters",
+        null,
+        "V_cutoff=2.5V,\nT_cell≥70",
+        "Chan107-120"
+      ]
+    },
+    {
+      "row": 28,
+      "values": [
+        6,
+        "ON",
+        "Rest",
+        "no load and wait for the TH11 temp to stabilize",
+        null,
+        "t>10 min, ∆Tcell<0.1 °C/min",
+        "Chan107_TH11"
+      ]
+    },
+    {
+      "row": 29,
+      "values": [
+        7,
+        "ON*",
+        "CC-CV charge",
+        "Set the charge current within the measurement parameters, coolant temp still the same",
+        null,
+        "V=4.2V, I_cutoff=50mA",
+        "Current"
+      ]
+    },
+    {
+      "row": 30,
+      "values": [
+        8,
+        "ON*",
+        "Thermal transition",
+        "Stop the coolant flow, let the module warm to the ambient temp",
+        null,
+        "∆T<0.1 °C/min",
+        "Chan107_TH11"
+      ]
+    },
+    {
+      "row": 31,
+      "values": [
+        "* = only on some of the measurements, see Test_Matrix"
+      ]
+    }
+  ],
+  "Test_Matrix": [
+    {
+      "row": 1,
+      "values": [
+        "Experiment ID",
+        "DAQ Timestamp",
+        "Discharge_current [A]",
+        "Charge_current [A]",
+        "Coolant Temp [°C]",
+        "Flow Rate [l/min]",
+        "DAQ Scan ON\n@STEP 7",
+        "DAQ Scan ON\n@STEP 8"
+      ]
+    },
+    {
+      "row": 2,
+      "values": [
+        1,
+        "20251126_150908248",
+        -20,
+        15,
+        25,
+        1.5,
+        "YES",
+        "YES"
+      ]
+    },
+    {
+      "row": 3,
+      "values": [
+        2,
+        "20251127_141017875",
+        -40,
+        15,
+        25,
+        1.5
+      ]
+    },
+    {
+      "row": 4,
+      "values": [
+        11,
+        "20251128_102057991",
+        -40,
+        15,
+        15,
+        1.5
+      ]
+    },
+    {
+      "row": 5,
+      "values": [
+        12,
+        "20251128_134031152",
+        -80,
+        15,
+        15,
+        1.5
+      ]
+    },
+    {
+      "row": 6,
+      "values": [
+        13,
+        "20251201_113728861",
+        -120,
+        15,
+        15,
+        1.5,
+        "YES",
+        "YES"
+      ]
+    },
+    {
+      "row": 7,
+      "values": [
+        14,
+        "20251201_163543484",
+        -40,
+        15,
+        15,
+        0.5
+      ]
+    },
+    {
+      "row": 8,
+      "values": [
+        15,
+        "20251202_133030514",
+        -80,
+        15,
+        15,
+        0.5
+      ]
+    },
+    {
+      "row": 9,
+      "values": [
+        16,
+        "20251203_103357473",
+        -120,
+        15,
+        15,
+        0.5,
+        "YES"
+      ]
+    },
+    {
+      "row": 10,
+      "values": [
+        17,
+        "20251204_111640041",
+        -40,
+        15,
+        15,
+        0.1
+      ]
+    },
+    {
+      "row": 11,
+      "values": [
+        18,
+        "20251204_144331500",
+        -80,
+        15,
+        15,
+        0.1
+      ]
+    },
+    {
+      "row": 12,
+      "values": [
+        19,
+        "20251205_120936377",
+        -120,
+        15,
+        15,
+        0.1,
+        "YES"
+      ]
+    },
+    {
+      "row": 13,
+      "values": [
+        20,
+        "20251205_160840427",
+        -40,
+        15,
+        15,
+        1.5
+      ]
+    },
+    {
+      "row": 14,
+      "values": [
+        21,
+        "20251209_144434492",
+        -40,
+        15,
+        5,
+        1.5
+      ]
+    },
+    {
+      "row": 15,
+      "values": [
+        22,
+        "20251210_144332381",
+        -80,
+        15,
+        5,
+        1.5
+      ]
+    }
+  ],
+  "Photographs": [
+    {
+      "row": 1,
+      "values": [
+        "This worksheet presents photo documentation of the battery module and the laboratory setup for better visualization and understanding of the module architecture."
+      ]
+    },
+    {
+      "row": 2,
+      "values": [
+        "#VALUE!",
+        "#VALUE!",
+        "On these photos the cooling circuit (yellow) and the electrical wiring can be seen."
+      ]
+    },
+    {
+      "row": 3,
+      "values": [
+        "#VALUE!",
+        "#VALUE!",
+        "More detailed look on the battery module from above on the left and nickel strips connected to the body of the cells (green arrows) serving as a negative current collector on the right."
+      ]
+    },
+    {
+      "row": 4,
+      "values": [
+        "#VALUE!",
+        "#VALUE!",
+        "Positive contacts and positive terminal on the left (red circle) and negative terminal with all the negative current collectors connected on the right (blue circle)."
+      ]
+    },
+    {
+      "row": 5,
+      "values": [
+        "#VALUE!",
+        "#VALUE!",
+        "Detailed photo of the PCBs with temperature sensors anlog the axial axis of the battery cells."
+      ]
+    }
+  ],
+  "3D_Model": [
+    {
+      "row": 1,
+      "values": [
+        "This worksheet shows an exploded 3D model for better visualization and understanding of the module architecture."
+      ]
+    },
+    {
+      "row": 2,
+      "values": [
+        "#VALUE!"
+      ]
+    },
+    {
+      "row": 3,
+      "values": [
+        "#VALUE!"
+      ]
+    },
+    {
+      "row": 4,
+      "values": [
+        "#VALUE!"
+      ]
+    },
+    {
+      "row": 5,
+      "values": [
+        "#VALUE!"
+      ]
+    },
+    {
+      "row": 6,
+      "values": [
+        "#VALUE!"
+      ]
+    }
+  ],
+  "Sensor_Layout": [
+    {
+      "row": 1,
+      "values": [
+        "SENSOR PLACEMENT AND DESCRIPTION"
+      ]
+    },
+    {
+      "row": 2,
+      "values": [
+        "On this worksheet plecement of the temperature sensors within the module is displayed."
+      ]
+    },
+    {
+      "row": 6,
+      "values": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Four battery-cell PCBs to measure temperature axial temperature distribution on every cell.\n  "
+      ]
+    },
+    {
+      "row": 13,
+      "values": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        "Cold plate PCB to measure temperature distribution on the upper side of the cold plate, through the thermal pad!"
+      ]
+    },
+    {
+      "row": 34,
+      "values": [
+        "Cold plate temperature sensors"
+      ]
+    },
+    {
+      "row": 35,
+      "values": [
+        "Axial battery temperature sensors"
+      ]
+    },
+    {
+      "row": 36,
+      "values": [
+        "Inlet/outlet water coolant temperature sensors"
+      ]
+    },
+    {
+      "row": 37,
+      "values": [
+        "Ambient temperature"
+      ]
+    },
+    {
+      "row": 39,
+      "values": [
+        "Measurement parameters"
+      ]
+    },
+    {
+      "row": 40,
+      "values": [
+        "Voltage",
+        "Chan306"
+      ]
+    },
+    {
+      "row": 41,
+      "values": [
+        "Current",
+        "Chan307"
+      ]
+    },
+    {
+      "row": 42,
+      "values": [
+        "Flow",
+        "Chan308"
+      ]
+    }
+  ],
+  "Materials": [
+    {
+      "row": 1,
+      "values": [
+        "On this worksheet material properties of used components are displayed "
+      ]
+    },
+    {
+      "row": 5,
+      "values": [
+        "https://xometry.pro/wp-content/uploads/2023/08/Aluminium-1706-1.pdf",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "https://www.nkon.nl/en/nikkel-battijersoldeerstrip-10mm-20mm.html",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "https://www.arctic.de/media/77/c5/74/1666609891/Spec_Sheet_MX-6_EN.pdf"
+      ]
+    },
+    {
+      "row": 15,
+      "values": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "estimated thermal conductivity - 0,5-2,0 W/mK"
+      ]
+    },
+    {
+      "row": 16,
+      "values": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "*a thin layer of the thermal paste is applied on the bottom side of the battery cells and cooling-channel PCB temperature sensors to ensure improved thermal contact between these components and the cooling channel, compensating for possible surface irregularities and the stiffness of the thermal pad"
+      ]
+    },
+    {
+      "row": 19,
+      "values": [
+        "https://uk.rs-online.com/web/p/thermal-pads/7943985"
+      ]
+    },
+    {
+      "row": 33,
+      "values": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "https://store.anycubic.com/products/tough-resin-2?_sasdk=dMTliMjYyNDA4ZjM2MWEtMDk3Mzg4OWE4MzU2MDktMjYwNjFiNTEtMjM1OTI5Ni0xOWIyNjI0MDhmNDFlZWY"
+      ]
+    },
+    {
+      "row": 48,
+      "values": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "estimated thermal conductivity - 0,2-0,3 W/mK"
+      ]
+    },
+    {
+      "row": 49,
+      "values": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "estimated specific heat capacity - 1,5-2,0 kJ/kgK"
+      ]
+    }
+  ]
+}

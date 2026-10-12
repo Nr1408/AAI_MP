@@ -1,0 +1,1962 @@
+[
+  {
+    "exp_id": "ID01",
+    "run_dir": "ID01_20251126_150908248",
+    "csv_name": "FreeTwinEV_1s4p_ID_01.csv",
+    "file_size_bytes": 1142768,
+    "data_rows": 2413,
+    "cols_count": 30,
+    "time_col_name": "timesamp",
+    "units": {
+      "timesamp": "s",
+      "current": "A",
+      "voltage": "V",
+      "SOC": "%",
+      "liquid_flow": "L/min",
+      "temp_ambient": "K",
+      "temp_inlet": "K",
+      "temp_outlet": "K",
+      "temp_TH1": "K",
+      "temp_TH2": "K",
+      "temp_TH3": "K",
+      "temp_TH4": "K",
+      "temp_TH5": "K",
+      "temp_TH6": "K",
+      "temp_TH7": "K",
+      "temp_TH8": "K",
+      "temp_TH9": "K",
+      "temp_TH10": "K",
+      "temp_cell-1_TH20": "K",
+      "temp_cell-1_TH21": "K",
+      "temp_cell-1_TH22": "K",
+      "temp_cell-2_TH17": "K",
+      "temp_cell-2_TH18": "K",
+      "temp_cell-2_TH19": "K",
+      "temp_cell-3_TH14": "K",
+      "temp_cell-3_TH15": "K",
+      "temp_cell-3_TH16": "K",
+      "temp_cell-4_TH11": "K",
+      "temp_cell-4_TH12": "K",
+      "temp_cell-4_TH13": "K"
+    },
+    "total_nulls": 0,
+    "is_monotonic": true,
+    "num_duplicates": 0,
+    "num_negative_steps": 0,
+    "duration_s": 12059.9979999997,
+    "duration_min": 200.99996666666166,
+    "duration_h": 3.349999444444361,
+    "dt_min": 4.328000000212299,
+    "dt_max": 5.532000000122906,
+    "dt_mean": 4.999999170812479,
+    "dt_median": 5.0,
+    "dt_std": 0.03641297348723903,
+    "num_gaps_gt_7_5s": 0,
+    "max_gap_s": 5.532000000122906,
+    "elec_stats": {
+      "current": {
+        "min": -20.0841953,
+        "max": 15.0615005,
+        "mean": -0.012759851266733504,
+        "std": 13.220070677175347
+      },
+      "voltage": {
+        "min": 2.52804461,
+        "max": 4.20465939,
+        "mean": 3.7489596931910483,
+        "std": 0.46138189560482373
+      },
+      "SOC": {
+        "min": 0.0020031470832922,
+        "max": 100.0,
+        "mean": 57.9418567577897,
+        "std": 38.12018931159933
+      }
+    },
+    "cooling_stats": {
+      "liquid_flow": {
+        "min_K": 0.0,
+        "max_K": 1.5391915,
+        "mean_K": 1.4979337261348529,
+        "std_K": 0.15182517913893268,
+        "min_C": null,
+        "max_C": null,
+        "mean_C": null
+      },
+      "temp_ambient": {
+        "min_K": 296.0300709,
+        "max_K": 298.0362073,
+        "mean_K": 296.73393253924576,
+        "std_K": 0.599971004653545,
+        "min_C": 22.88007090000002,
+        "max_C": 24.886207300000024,
+        "mean_C": 23.58393253924578
+      },
+      "temp_inlet": {
+        "min_K": 296.3344585,
+        "max_K": 298.8054102,
+        "mean_K": 298.2731243674679,
+        "std_K": 0.3482566735543689,
+        "min_C": 23.184458500000005,
+        "max_C": 25.655410200000006,
+        "mean_C": 25.123124367467938
+      },
+      "temp_outlet": {
+        "min_K": 296.6656625,
+        "max_K": 298.824517,
+        "mean_K": 298.3075015854124,
+        "std_K": 0.330219980550383,
+        "min_C": 23.51566250000002,
+        "max_C": 25.674517000000037,
+        "mean_C": 25.157501585412433
+      }
+    },
+    "plate_stats": {
+      "sensor_count": 10,
+      "min_C": 23.31142705516703,
+      "max_C": 26.13165971163704,
+      "mean_C": 25.101796613842104
+    },
+    "cell_sensor_count": 12,
+    "max_cell_temp_C_overall_min": 23.732017060401006,
+    "max_cell_temp_C_overall_max": 31.46913162906401,
+    "max_cell_temp_C_overall_mean": 26.47635187083971,
+    "cell_temp_spread_C_mean": 0.8163945394732486,
+    "cell_temp_spread_C_max": 2.2866138222530026,
+    "continuity_stats": {
+      "max_step_change_C": 0.07303888753199317,
+      "mean_step_change_C": 0.0094644380111578,
+      "median_step_change_C": 0.005704206103985143,
+      "rate_of_change_C_per_sec_max": 0.014742305351592454,
+      "rate_of_change_C_per_sec_mean": 0.0018929974633663277
+    },
+    "autocorrs": {
+      "lag_1_step_5s": 0.9999416477639583,
+      "lag_2_step_10s": 0.9997682540585097,
+      "lag_6_step_30s": 0.9979497978614867,
+      "lag_12_step_60s": 0.9920546139645537,
+      "lag_24_step_120s": 0.9704542979696206,
+      "lag_60_step_300s": 0.8538976200098708
+    }
+  },
+  {
+    "exp_id": "ID02",
+    "run_dir": "ID02_20251127_141017875",
+    "csv_name": "FreeTwinEV_1s4p_ID_02.csv",
+    "file_size_bytes": 347217,
+    "data_rows": 728,
+    "cols_count": 30,
+    "time_col_name": "timesamp",
+    "units": {
+      "timesamp": "s",
+      "current": "A",
+      "voltage": "V",
+      "SOC": "%",
+      "liquid_flow": "L/min",
+      "temp_ambient": "K",
+      "temp_inlet": "K",
+      "temp_outlet": "K",
+      "temp_TH1": "K",
+      "temp_TH2": "K",
+      "temp_TH3": "K",
+      "temp_TH4": "K",
+      "temp_TH5": "K",
+      "temp_TH6": "K",
+      "temp_TH7": "K",
+      "temp_TH8": "K",
+      "temp_TH9": "K",
+      "temp_TH10": "K",
+      "temp_cell-1_TH20": "K",
+      "temp_cell-1_TH21": "K",
+      "temp_cell-1_TH22": "K",
+      "temp_cell-2_TH17": "K",
+      "temp_cell-2_TH18": "K",
+      "temp_cell-2_TH19": "K",
+      "temp_cell-3_TH14": "K",
+      "temp_cell-3_TH15": "K",
+      "temp_cell-3_TH16": "K",
+      "temp_cell-4_TH11": "K",
+      "temp_cell-4_TH12": "K",
+      "temp_cell-4_TH13": "K"
+    },
+    "total_nulls": 0,
+    "is_monotonic": true,
+    "num_duplicates": 0,
+    "num_negative_steps": 0,
+    "duration_s": 3635.01000000024,
+    "duration_min": 60.583500000004,
+    "duration_h": 1.0097250000000666,
+    "dt_min": 4.843000000342954,
+    "dt_max": 5.156999999657046,
+    "dt_mean": 5.000013755158514,
+    "dt_median": 5.0,
+    "dt_std": 0.04340180242839394,
+    "num_gaps_gt_7_5s": 0,
+    "max_gap_s": 5.156999999657046,
+    "elec_stats": {
+      "current": {
+        "min": -40.144218,
+        "max": 15.0593063,
+        "mean": -15.021720285901347,
+        "std": 21.338784086194906
+      },
+      "voltage": {
+        "min": 2.5411337,
+        "max": 4.17459685,
+        "mean": 3.2663744586263737,
+        "std": 0.38722190029442854
+      },
+      "SOC": {
+        "min": 1.71836989470656,
+        "max": 100.0,
+        "mean": 27.163230036880893,
+        "std": 34.04485500330003
+      }
+    },
+    "cooling_stats": {
+      "liquid_flow": {
+        "min_K": 1.4849538,
+        "max_K": 1.53495861,
+        "mean_K": 1.5098563459340657,
+        "std_K": 0.006892347713299913,
+        "min_C": null,
+        "max_C": null,
+        "mean_C": null
+      },
+      "temp_ambient": {
+        "min_K": 296.0096456,
+        "max_K": 296.6152014,
+        "mean_K": 296.32392616758244,
+        "std_K": 0.1664156576680105,
+        "min_C": 22.85964560000002,
+        "max_C": 23.465201400000012,
+        "mean_C": 23.173926167582465
+      },
+      "temp_inlet": {
+        "min_K": 297.6840716,
+        "max_K": 298.7502447,
+        "mean_K": 298.2942323322802,
+        "std_K": 0.27522796457517434,
+        "min_C": 24.534071600000004,
+        "max_C": 25.60024470000002,
+        "mean_C": 25.14423233228024
+      },
+      "temp_outlet": {
+        "min_K": 297.7252389,
+        "max_K": 298.8199414,
+        "mean_K": 298.3382995210165,
+        "std_K": 0.2754878911508667,
+        "min_C": 24.575238900000045,
+        "max_C": 25.669941400000027,
+        "mean_C": 25.188299521016518
+      }
+    },
+    "plate_stats": {
+      "sensor_count": 10,
+      "min_C": 24.35728581107503,
+      "max_C": 26.790747952450033,
+      "mean_C": 25.34922022872429
+    },
+    "cell_sensor_count": 12,
+    "max_cell_temp_C_overall_min": 24.754853841758006,
+    "max_cell_temp_C_overall_max": 38.43476387028704,
+    "max_cell_temp_C_overall_mean": 29.066941155027763,
+    "cell_temp_spread_C_mean": 1.8394456511527482,
+    "cell_temp_spread_C_max": 5.2049309342519905,
+    "continuity_stats": {
+      "max_step_change_C": 0.16023414649004053,
+      "mean_step_change_C": 0.039314300425120095,
+      "median_step_change_C": 0.029221997137995004,
+      "rate_of_change_C_per_sec_max": 0.03212392671982283,
+      "rate_of_change_C_per_sec_mean": 0.007862487637681175
+    },
+    "autocorrs": {
+      "lag_1_step_5s": 0.9999097699087406,
+      "lag_2_step_10s": 0.9996399634701316,
+      "lag_6_step_30s": 0.9968105220998036,
+      "lag_12_step_60s": 0.98764984264878,
+      "lag_24_step_120s": 0.954040123650076,
+      "lag_60_step_300s": 0.7622053374533212
+    }
+  },
+  {
+    "exp_id": "ID11",
+    "run_dir": "ID11_20251128_102057991",
+    "csv_name": "FreeTwinEV_1s4p_ID_11.csv",
+    "file_size_bytes": 507636,
+    "data_rows": 1071,
+    "cols_count": 30,
+    "time_col_name": "timesamp",
+    "units": {
+      "timesamp": "s",
+      "current": "A",
+      "voltage": "V",
+      "SOC": "%",
+      "liquid_flow": "L/min",
+      "temp_ambient": "K",
+      "temp_inlet": "K",
+      "temp_outlet": "K",
+      "temp_TH1": "K",
+      "temp_TH2": "K",
+      "temp_TH3": "K",
+      "temp_TH4": "K",
+      "temp_TH5": "K",
+      "temp_TH6": "K",
+      "temp_TH7": "K",
+      "temp_TH8": "K",
+      "temp_TH9": "K",
+      "temp_TH10": "K",
+      "temp_cell-1_TH20": "K",
+      "temp_cell-1_TH21": "K",
+      "temp_cell-1_TH22": "K",
+      "temp_cell-2_TH17": "K",
+      "temp_cell-2_TH18": "K",
+      "temp_cell-2_TH19": "K",
+      "temp_cell-3_TH14": "K",
+      "temp_cell-3_TH15": "K",
+      "temp_cell-3_TH16": "K",
+      "temp_cell-4_TH11": "K",
+      "temp_cell-4_TH12": "K",
+      "temp_cell-4_TH13": "K"
+    },
+    "total_nulls": 0,
+    "is_monotonic": true,
+    "num_duplicates": 0,
+    "num_negative_steps": 0,
+    "duration_s": 5350.04400000023,
+    "duration_min": 89.16740000000384,
+    "duration_h": 1.4861233333333972,
+    "dt_min": 3.771000000182511,
+    "dt_max": 6.236000000033599,
+    "dt_mean": 5.000041121495542,
+    "dt_median": 5.0,
+    "dt_std": 0.0629431889681227,
+    "num_gaps_gt_7_5s": 0,
+    "max_gap_s": 6.236000000033599,
+    "elec_stats": {
+      "current": {
+        "min": -40.149409,
+        "max": 6.15681015e-06,
+        "mean": -11.094881118567868,
+        "std": 17.955911514550973
+      },
+      "voltage": {
+        "min": 2.52679301,
+        "max": 4.18182929,
+        "mean": 3.5074068906069096,
+        "std": 0.5240830577320795
+      },
+      "SOC": {
+        "min": 2.36353980157935,
+        "max": 100.0,
+        "mean": 47.08104108241138,
+        "std": 43.9219281360924
+      }
+    },
+    "cooling_stats": {
+      "liquid_flow": {
+        "min_K": 0.0,
+        "max_K": 1.52999728,
+        "mean_K": 1.4788734491102706,
+        "std_K": 0.19342467884680478,
+        "min_C": null,
+        "max_C": null,
+        "mean_C": null
+      },
+      "temp_ambient": {
+        "min_K": 295.8260459,
+        "max_K": 296.971859,
+        "mean_K": 296.3780150280112,
+        "std_K": 0.2761415496889569,
+        "min_C": 22.67604590000002,
+        "max_C": 23.821859000000018,
+        "mean_C": 23.228015028011214
+      },
+      "temp_inlet": {
+        "min_K": 287.407998,
+        "max_K": 294.7646294,
+        "mean_K": 288.1345481238095,
+        "std_K": 0.9229295397711709,
+        "min_C": 14.257998000000043,
+        "max_C": 21.614629400000013,
+        "mean_C": 14.984548123809532
+      },
+      "temp_outlet": {
+        "min_K": 287.4588461,
+        "max_K": 294.8251507,
+        "mean_K": 288.18947386778717,
+        "std_K": 0.9330415426024019,
+        "min_C": 14.30884610000004,
+        "max_C": 21.675150700000017,
+        "mean_C": 15.039473867787194
+      }
+    },
+    "plate_stats": {
+      "sensor_count": 10,
+      "min_C": 14.439864059153024,
+      "max_C": 21.55586265273405,
+      "mean_C": 15.574365972370229
+    },
+    "cell_sensor_count": 12,
+    "max_cell_temp_C_overall_min": 17.806496337774036,
+    "max_cell_temp_C_overall_max": 34.46151820677602,
+    "max_cell_temp_C_overall_mean": 21.739600207081974,
+    "cell_temp_spread_C_mean": 3.0732776421052947,
+    "cell_temp_spread_C_max": 8.602850665834978,
+    "continuity_stats": {
+      "max_step_change_C": 0.1915166229280203,
+      "mean_step_change_C": 0.03521360934890118,
+      "median_step_change_C": 0.02292690675150766,
+      "rate_of_change_C_per_sec_max": 0.03832021258752844,
+      "rate_of_change_C_per_sec_mean": 0.007042893292478493
+    },
+    "autocorrs": {
+      "lag_1_step_5s": 0.9999277824428957,
+      "lag_2_step_10s": 0.9997129389539727,
+      "lag_6_step_30s": 0.9974888590184232,
+      "lag_12_step_60s": 0.9903791013006659,
+      "lag_24_step_120s": 0.9645558721577042,
+      "lag_60_step_300s": 0.8227450907576205
+    }
+  },
+  {
+    "exp_id": "ID12",
+    "run_dir": "ID12_20251128_134031152",
+    "csv_name": "FreeTwinEV_1s4p_ID_12.csv",
+    "file_size_bytes": 545335,
+    "data_rows": 1153,
+    "cols_count": 30,
+    "time_col_name": "timesamp",
+    "units": {
+      "timesamp": "s",
+      "current": "A",
+      "voltage": "V",
+      "SOC": "%",
+      "liquid_flow": "L/min",
+      "temp_ambient": "K",
+      "temp_inlet": "K",
+      "temp_outlet": "K",
+      "temp_TH1": "K",
+      "temp_TH2": "K",
+      "temp_TH3": "K",
+      "temp_TH4": "K",
+      "temp_TH5": "K",
+      "temp_TH6": "K",
+      "temp_TH7": "K",
+      "temp_TH8": "K",
+      "temp_TH9": "K",
+      "temp_TH10": "K",
+      "temp_cell-1_TH20": "K",
+      "temp_cell-1_TH21": "K",
+      "temp_cell-1_TH22": "K",
+      "temp_cell-2_TH17": "K",
+      "temp_cell-2_TH18": "K",
+      "temp_cell-2_TH19": "K",
+      "temp_cell-3_TH14": "K",
+      "temp_cell-3_TH15": "K",
+      "temp_cell-3_TH16": "K",
+      "temp_cell-4_TH11": "K",
+      "temp_cell-4_TH12": "K",
+      "temp_cell-4_TH13": "K"
+    },
+    "total_nulls": 0,
+    "is_monotonic": true,
+    "num_duplicates": 0,
+    "num_negative_steps": 0,
+    "duration_s": 5760.01800000016,
+    "duration_min": 96.00030000000267,
+    "duration_h": 1.6000050000000445,
+    "dt_min": 4.214000000152694,
+    "dt_max": 6.194000000134203,
+    "dt_mean": 5.000015625000139,
+    "dt_median": 5.0,
+    "dt_std": 0.06218281822090554,
+    "num_gaps_gt_7_5s": 0,
+    "max_gap_s": 6.194000000134203,
+    "elec_stats": {
+      "current": {
+        "min": -80.2900005,
+        "max": -0.000440211926,
+        "mean": -10.235402697656129,
+        "std": 26.777331851192
+      },
+      "voltage": {
+        "min": 2.53867808,
+        "max": 4.19202452,
+        "mean": 3.547390595923677,
+        "std": 0.5537277480132985
+      },
+      "SOC": {
+        "min": 3.04044191604429,
+        "max": 100.0,
+        "mean": 49.0406063962023,
+        "std": 46.327702132114965
+      }
+    },
+    "cooling_stats": {
+      "liquid_flow": {
+        "min_K": 0.0,
+        "max_K": 1.54011414,
+        "mean_K": 1.4265459259741198,
+        "std_K": 0.35435546096207626,
+        "min_C": null,
+        "max_C": null,
+        "mean_C": null
+      },
+      "temp_ambient": {
+        "min_K": 294.9753544,
+        "max_K": 296.9866857,
+        "mean_K": 295.82295041621853,
+        "std_K": 0.537220581610278,
+        "min_C": 21.825354400000037,
+        "max_C": 23.836685700000032,
+        "mean_C": 22.672950416218555
+      },
+      "temp_inlet": {
+        "min_K": 287.6060212,
+        "max_K": 294.830816,
+        "mean_K": 288.592478041804,
+        "std_K": 1.5151584486274614,
+        "min_C": 14.45602120000001,
+        "max_C": 21.68081600000005,
+        "mean_C": 15.442478041804009
+      },
+      "temp_outlet": {
+        "min_K": 287.6496802,
+        "max_K": 295.4599801,
+        "mean_K": 288.7029014257589,
+        "std_K": 1.7183125202825147,
+        "min_C": 14.4996802,
+        "max_C": 22.30998010000002,
+        "mean_C": 15.552901425758932
+      }
+    },
+    "plate_stats": {
+      "sensor_count": 10,
+      "min_C": 14.624760424501005,
+      "max_C": 22.287366916776023,
+      "mean_C": 16.146671684281003
+    },
+    "cell_sensor_count": 12,
+    "max_cell_temp_C_overall_min": 17.46997721969103,
+    "max_cell_temp_C_overall_max": 55.064234050021014,
+    "max_cell_temp_C_overall_mean": 23.28748731239535,
+    "cell_temp_spread_C_mean": 3.573681188105485,
+    "cell_temp_spread_C_max": 18.496076624355965,
+    "continuity_stats": {
+      "max_step_change_C": 0.5485162919710547,
+      "mean_step_change_C": 0.06998374339991781,
+      "median_step_change_C": 0.009929603515502095,
+      "rate_of_change_C_per_sec_max": 0.10950614732726865,
+      "rate_of_change_C_per_sec_mean": 0.013997258921780106
+    },
+    "autocorrs": {
+      "lag_1_step_5s": 0.9998896023700747,
+      "lag_2_step_10s": 0.9995624966091394,
+      "lag_6_step_30s": 0.9961942807943214,
+      "lag_12_step_60s": 0.9854570415910812,
+      "lag_24_step_120s": 0.9465143119706727,
+      "lag_60_step_300s": 0.7359843867220479
+    }
+  },
+  {
+    "exp_id": "ID13",
+    "run_dir": "ID13_20251201_113728861",
+    "csv_name": "FreeTwinEV_1s4p_ID_13.csv",
+    "file_size_bytes": 1418139,
+    "data_rows": 3012,
+    "cols_count": 30,
+    "time_col_name": "timesamp",
+    "units": {
+      "timesamp": "s",
+      "current": "A",
+      "voltage": "V",
+      "SOC": "%",
+      "liquid_flow": "L/min",
+      "temp_ambient": "K",
+      "temp_inlet": "K",
+      "temp_outlet": "K",
+      "temp_TH1": "K",
+      "temp_TH2": "K",
+      "temp_TH3": "K",
+      "temp_TH4": "K",
+      "temp_TH5": "K",
+      "temp_TH6": "K",
+      "temp_TH7": "K",
+      "temp_TH8": "K",
+      "temp_TH9": "K",
+      "temp_TH10": "K",
+      "temp_cell-1_TH20": "K",
+      "temp_cell-1_TH21": "K",
+      "temp_cell-1_TH22": "K",
+      "temp_cell-2_TH17": "K",
+      "temp_cell-2_TH18": "K",
+      "temp_cell-2_TH19": "K",
+      "temp_cell-3_TH14": "K",
+      "temp_cell-3_TH15": "K",
+      "temp_cell-3_TH16": "K",
+      "temp_cell-4_TH11": "K",
+      "temp_cell-4_TH12": "K",
+      "temp_cell-4_TH13": "K"
+    },
+    "total_nulls": 0,
+    "is_monotonic": true,
+    "num_duplicates": 0,
+    "num_negative_steps": 0,
+    "duration_s": 15055.013,
+    "duration_min": 250.91688333333335,
+    "duration_h": 4.181948055555556,
+    "dt_min": 3.422000000006001,
+    "dt_max": 6.4649999999965,
+    "dt_mean": 5.0000043175024915,
+    "dt_median": 5.0,
+    "dt_std": 0.06551657375112734,
+    "num_gaps_gt_7_5s": 0,
+    "max_gap_s": 6.4649999999965,
+    "elec_stats": {
+      "current": {
+        "min": -120.464221,
+        "max": 15.0622993,
+        "mean": 0.011319103345967,
+        "std": 21.399232458702123
+      },
+      "voltage": {
+        "min": 2.82542473,
+        "max": 4.20439121,
+        "mean": 3.9671360612715802,
+        "std": 0.33777917205246216
+      },
+      "SOC": {
+        "min": 15.8972988483909,
+        "max": 100.0,
+        "mean": 75.61317510425309,
+        "std": 33.91648282888446
+      }
+    },
+    "cooling_stats": {
+      "liquid_flow": {
+        "min_K": 0.0,
+        "max_K": 1.51227507,
+        "mean_K": 0.9799233031611021,
+        "std_K": 0.6814349493363502,
+        "min_C": null,
+        "max_C": null,
+        "mean_C": null
+      },
+      "temp_ambient": {
+        "min_K": 294.9925822,
+        "max_K": 296.4773432,
+        "mean_K": 295.8164157450531,
+        "std_K": 0.2697537493018327,
+        "min_C": 21.842582200000038,
+        "max_C": 23.32734320000003,
+        "mean_C": 22.666415745053143
+      },
+      "temp_inlet": {
+        "min_K": 287.7036543,
+        "max_K": 295.1559575,
+        "mean_K": 290.2182524321049,
+        "std_K": 2.742855757899203,
+        "min_C": 14.553654300000005,
+        "max_C": 22.005957500000022,
+        "mean_C": 17.06825243210494
+      },
+      "temp_outlet": {
+        "min_K": 287.733413,
+        "max_K": 295.6645926,
+        "mean_K": 290.3628556908699,
+        "std_K": 2.866715512172736,
+        "min_C": 14.583413000000007,
+        "max_C": 22.514592600000014,
+        "mean_C": 17.2128556908699
+      }
+    },
+    "plate_stats": {
+      "sensor_count": 10,
+      "min_C": 14.724697549172049,
+      "max_C": 22.24374950019501,
+      "mean_C": 17.355831222356287
+    },
+    "cell_sensor_count": 12,
+    "max_cell_temp_C_overall_min": 17.601796236502025,
+    "max_cell_temp_C_overall_max": 73.042086731001,
+    "max_cell_temp_C_overall_mean": 21.709261024141988,
+    "cell_temp_spread_C_mean": 2.2366395312388927,
+    "cell_temp_spread_C_max": 26.51539646983997,
+    "continuity_stats": {
+      "max_step_change_C": 1.468785948548998,
+      "mean_step_change_C": 0.041794916974853324,
+      "median_step_change_C": 0.005094107930972314,
+      "rate_of_change_C_per_sec_max": 0.2936984500203712,
+      "rate_of_change_C_per_sec_mean": 0.008358726871118534
+    },
+    "autocorrs": {
+      "lag_1_step_5s": 0.9998175946679038,
+      "lag_2_step_10s": 0.9992816277443738,
+      "lag_6_step_30s": 0.9938520321127302,
+      "lag_12_step_60s": 0.9768635510286717,
+      "lag_24_step_120s": 0.9167292846921359,
+      "lag_60_step_300s": 0.6139393733650462
+    }
+  },
+  {
+    "exp_id": "ID14",
+    "run_dir": "ID14_20251201_163543484",
+    "csv_name": "FreeTwinEV_1s4p_ID_14.csv",
+    "file_size_bytes": 427013,
+    "data_rows": 904,
+    "cols_count": 30,
+    "time_col_name": "timesamp",
+    "units": {
+      "timesamp": "s",
+      "current": "A",
+      "voltage": "V",
+      "SOC": "%",
+      "liquid_flow": "L/min",
+      "temp_ambient": "K",
+      "temp_inlet": "K",
+      "temp_outlet": "K",
+      "temp_TH1": "K",
+      "temp_TH2": "K",
+      "temp_TH3": "K",
+      "temp_TH4": "K",
+      "temp_TH5": "K",
+      "temp_TH6": "K",
+      "temp_TH7": "K",
+      "temp_TH8": "K",
+      "temp_TH9": "K",
+      "temp_TH10": "K",
+      "temp_cell-1_TH20": "K",
+      "temp_cell-1_TH21": "K",
+      "temp_cell-1_TH22": "K",
+      "temp_cell-2_TH17": "K",
+      "temp_cell-2_TH18": "K",
+      "temp_cell-2_TH19": "K",
+      "temp_cell-3_TH14": "K",
+      "temp_cell-3_TH15": "K",
+      "temp_cell-3_TH16": "K",
+      "temp_cell-4_TH11": "K",
+      "temp_cell-4_TH12": "K",
+      "temp_cell-4_TH13": "K"
+    },
+    "total_nulls": 0,
+    "is_monotonic": true,
+    "num_duplicates": 0,
+    "num_negative_steps": 0,
+    "duration_s": 4515.128,
+    "duration_min": 75.25213333333333,
+    "duration_h": 1.2542022222222222,
+    "dt_min": 4.796000000000049,
+    "dt_max": 5.21799999999007,
+    "dt_mean": 5.000141749723145,
+    "dt_median": 5.0,
+    "dt_std": 0.06404298334942632,
+    "num_gaps_gt_7_5s": 0,
+    "max_gap_s": 5.21799999999007,
+    "elec_stats": {
+      "current": {
+        "min": -40.1439902,
+        "max": -0.000939683149,
+        "mean": -13.143028768776173,
+        "std": 18.842169230123258
+      },
+      "voltage": {
+        "min": 2.52550921,
+        "max": 4.19475706,
+        "mean": 3.50897549778761,
+        "std": 0.5241700729588178
+      },
+      "SOC": {
+        "min": 2.36703991403714,
+        "max": 100.0,
+        "mean": 47.88980733628632,
+        "std": 43.05905178678903
+      }
+    },
+    "cooling_stats": {
+      "liquid_flow": {
+        "min_K": 0.0,
+        "max_K": 0.524484738,
+        "mean_K": 0.4927186148163717,
+        "std_K": 0.09300527391419922,
+        "min_C": null,
+        "max_C": null,
+        "mean_C": null
+      },
+      "temp_ambient": {
+        "min_K": 295.8175445,
+        "max_K": 296.4997176,
+        "mean_K": 296.125390091261,
+        "std_K": 0.22932143175296124,
+        "min_C": 22.66754450000002,
+        "max_C": 23.34971760000002,
+        "mean_C": 22.975390091261033
+      },
+      "temp_inlet": {
+        "min_K": 287.8489229,
+        "max_K": 294.0230365,
+        "mean_K": 288.5557084098451,
+        "std_K": 0.9331497354760134,
+        "min_C": 14.698922900000014,
+        "max_C": 20.873036500000012,
+        "mean_C": 15.405708409845147
+      },
+      "temp_outlet": {
+        "min_K": 287.9623068,
+        "max_K": 294.4618104,
+        "mean_K": 288.74042695873896,
+        "std_K": 1.1329731454086052,
+        "min_C": 14.812306800000044,
+        "max_C": 21.311810400000013,
+        "mean_C": 15.590426958738988
+      }
+    },
+    "plate_stats": {
+      "sensor_count": 10,
+      "min_C": 15.02098570227804,
+      "max_C": 20.769765514154017,
+      "mean_C": 16.193650422681646
+    },
+    "cell_sensor_count": 12,
+    "max_cell_temp_C_overall_min": 18.03943238557804,
+    "max_cell_temp_C_overall_max": 36.20573532844202,
+    "max_cell_temp_C_overall_mean": 22.954946559233818,
+    "cell_temp_spread_C_mean": 3.5300766100047167,
+    "cell_temp_spread_C_max": 10.098439648478973,
+    "continuity_stats": {
+      "max_step_change_C": 0.2644279515490098,
+      "mean_step_change_C": 0.04367251888454188,
+      "median_step_change_C": 0.0303855625040228,
+      "rate_of_change_C_per_sec_max": 0.05291734071454517,
+      "rate_of_change_C_per_sec_mean": 0.008734854705242755
+    },
+    "autocorrs": {
+      "lag_1_step_5s": 0.9999163808069848,
+      "lag_2_step_10s": 0.9996685742503921,
+      "lag_6_step_30s": 0.9971328121953381,
+      "lag_12_step_60s": 0.9891024732750382,
+      "lag_24_step_120s": 0.9601413952524904,
+      "lag_60_step_300s": 0.8000089826512533
+    }
+  },
+  {
+    "exp_id": "ID15",
+    "run_dir": "ID15_20251202_133030514",
+    "csv_name": "FreeTwinEV_1s4p_ID_15.csv",
+    "file_size_bytes": 525585,
+    "data_rows": 1117,
+    "cols_count": 30,
+    "time_col_name": "timesamp",
+    "units": {
+      "timesamp": "s",
+      "current": "A",
+      "voltage": "V",
+      "SOC": "%",
+      "liquid_flow": "L/min",
+      "temp_ambient": "K",
+      "temp_inlet": "K",
+      "temp_outlet": "K",
+      "temp_TH1": "K",
+      "temp_TH2": "K",
+      "temp_TH3": "K",
+      "temp_TH4": "K",
+      "temp_TH5": "K",
+      "temp_TH6": "K",
+      "temp_TH7": "K",
+      "temp_TH8": "K",
+      "temp_TH9": "K",
+      "temp_TH10": "K",
+      "temp_cell-1_TH20": "K",
+      "temp_cell-1_TH21": "K",
+      "temp_cell-1_TH22": "K",
+      "temp_cell-2_TH17": "K",
+      "temp_cell-2_TH18": "K",
+      "temp_cell-2_TH19": "K",
+      "temp_cell-3_TH14": "K",
+      "temp_cell-3_TH15": "K",
+      "temp_cell-3_TH16": "K",
+      "temp_cell-4_TH11": "K",
+      "temp_cell-4_TH12": "K",
+      "temp_cell-4_TH13": "K"
+    },
+    "total_nulls": 0,
+    "is_monotonic": true,
+    "num_duplicates": 0,
+    "num_negative_steps": 0,
+    "duration_s": 5579.99900000001,
+    "duration_min": 92.9999833333335,
+    "duration_h": 1.549999722222225,
+    "dt_min": 4.867999999988001,
+    "dt_max": 5.122000000000298,
+    "dt_mean": 4.9999991039426614,
+    "dt_median": 5.0,
+    "dt_std": 0.034649046899199794,
+    "num_gaps_gt_7_5s": 0,
+    "max_gap_s": 5.122000000000298,
+    "elec_stats": {
+      "current": {
+        "min": -80.2950461,
+        "max": -0.000630303439,
+        "mean": -10.566050256657118,
+        "std": 27.14414104236634
+      },
+      "voltage": {
+        "min": 2.51795193,
+        "max": 4.18915246,
+        "mean": 3.593129553706356,
+        "std": 0.5498028080973048
+      },
+      "SOC": {
+        "min": 3.03693289708927,
+        "max": 100.0,
+        "mean": 52.60473696353301,
+        "std": 46.31429720281809
+      }
+    },
+    "cooling_stats": {
+      "liquid_flow": {
+        "min_K": 0.0,
+        "max_K": 0.524248183,
+        "mean_K": 0.482282597982095,
+        "std_K": 0.1089943222425409,
+        "min_C": null,
+        "max_C": null,
+        "mean_C": null
+      },
+      "temp_ambient": {
+        "min_K": 295.9403996,
+        "max_K": 297.0741514,
+        "mean_K": 296.3561267588183,
+        "std_K": 0.31088023434343925,
+        "min_C": 22.7903996,
+        "max_C": 23.924151400000028,
+        "mean_C": 23.2061267588183
+      },
+      "temp_inlet": {
+        "min_K": 287.8489516,
+        "max_K": 296.0083052,
+        "mean_K": 288.7313041361683,
+        "std_K": 1.5473149263154606,
+        "min_C": 14.698951600000044,
+        "max_C": 22.858305200000018,
+        "mean_C": 15.581304136168342
+      },
+      "temp_outlet": {
+        "min_K": 287.9586246,
+        "max_K": 296.4550644,
+        "mean_K": 288.9433503180842,
+        "std_K": 1.7448182498739175,
+        "min_C": 14.80862460000003,
+        "max_C": 23.30506440000005,
+        "mean_C": 15.793350318084208
+      }
+    },
+    "plate_stats": {
+      "sensor_count": 10,
+      "min_C": 15.011357934930004,
+      "max_C": 23.21459632639403,
+      "mean_C": 16.525866669107042
+    },
+    "cell_sensor_count": 12,
+    "max_cell_temp_C_overall_min": 18.085284414180023,
+    "max_cell_temp_C_overall_max": 61.09577584255203,
+    "max_cell_temp_C_overall_mean": 24.45554552225533,
+    "cell_temp_spread_C_mean": 4.21021656079781,
+    "cell_temp_spread_C_max": 23.76366104238599,
+    "continuity_stats": {
+      "max_step_change_C": 1.1478897729000437,
+      "mean_step_change_C": 0.08218792503364825,
+      "median_step_change_C": 0.0120093108589856,
+      "rate_of_change_C_per_sec_max": 0.22994586796875002,
+      "rate_of_change_C_per_sec_mean": 0.016437789292565272
+    },
+    "autocorrs": {
+      "lag_1_step_5s": 0.9998713584397624,
+      "lag_2_step_10s": 0.9994941888291594,
+      "lag_6_step_30s": 0.9957466186521052,
+      "lag_12_step_60s": 0.9842352209529578,
+      "lag_24_step_120s": 0.9437133574686389,
+      "lag_60_step_300s": 0.7298502845324382
+    }
+  },
+  {
+    "exp_id": "ID16",
+    "run_dir": "ID16_20251203_103357473",
+    "csv_name": "FreeTwinEV_1s4p_ID_16.csv",
+    "file_size_bytes": 1357881,
+    "data_rows": 2915,
+    "cols_count": 30,
+    "time_col_name": "timesamp",
+    "units": {
+      "timesamp": "s",
+      "current": "A",
+      "voltage": "V",
+      "SOC": "%",
+      "liquid_flow": "L/min",
+      "temp_ambient": "K",
+      "temp_inlet": "K",
+      "temp_outlet": "K",
+      "temp_TH1": "K",
+      "temp_TH2": "K",
+      "temp_TH3": "K",
+      "temp_TH4": "K",
+      "temp_TH5": "K",
+      "temp_TH6": "K",
+      "temp_TH7": "K",
+      "temp_TH8": "K",
+      "temp_TH9": "K",
+      "temp_TH10": "K",
+      "temp_cell-1_TH20": "K",
+      "temp_cell-1_TH21": "K",
+      "temp_cell-1_TH22": "K",
+      "temp_cell-2_TH17": "K",
+      "temp_cell-2_TH18": "K",
+      "temp_cell-2_TH19": "K",
+      "temp_cell-3_TH14": "K",
+      "temp_cell-3_TH15": "K",
+      "temp_cell-3_TH16": "K",
+      "temp_cell-4_TH11": "K",
+      "temp_cell-4_TH12": "K",
+      "temp_cell-4_TH13": "K"
+    },
+    "total_nulls": 0,
+    "is_monotonic": true,
+    "num_duplicates": 0,
+    "num_negative_steps": 0,
+    "duration_s": 14570.03,
+    "duration_min": 242.83383333333333,
+    "duration_h": 4.047230555555556,
+    "dt_min": 4.798000000009779,
+    "dt_max": 5.185999999989917,
+    "dt_mean": 5.000010295126973,
+    "dt_median": 5.0,
+    "dt_std": 0.03401904918202256,
+    "num_gaps_gt_7_5s": 0,
+    "max_gap_s": 5.185999999989917,
+    "elec_stats": {
+      "current": {
+        "min": -120.439669,
+        "max": 15.0598789,
+        "mean": 0.0010809911523529004,
+        "std": 20.145454148891154
+      },
+      "voltage": {
+        "min": 2.96330981,
+        "max": 4.20397067,
+        "mean": 4.011379782377358,
+        "std": 0.2818468758656094
+      },
+      "SOC": {
+        "min": 27.7835164143987,
+        "max": 100.0,
+        "mean": 80.44156248825661,
+        "std": 28.79158986715429
+      }
+    },
+    "cooling_stats": {
+      "liquid_flow": {
+        "min_K": 0.0,
+        "max_K": 0.522893157,
+        "mean_K": 0.4925772479468267,
+        "std_K": 0.03827715913977127,
+        "min_C": null,
+        "max_C": null,
+        "mean_C": null
+      },
+      "temp_ambient": {
+        "min_K": 293.8242191,
+        "max_K": 295.0380226,
+        "mean_K": 294.28171143385936,
+        "std_K": 0.3960932216400181,
+        "min_C": 20.674219100000016,
+        "max_C": 21.8880226,
+        "mean_C": 21.13171143385938
+      },
+      "temp_inlet": {
+        "min_K": 287.778345,
+        "max_K": 293.453556,
+        "mean_K": 288.3627328001715,
+        "std_K": 0.4723744308185845,
+        "min_C": 14.628345000000024,
+        "max_C": 20.303556000000015,
+        "mean_C": 15.212732800171523
+      },
+      "temp_outlet": {
+        "min_K": 287.8683866,
+        "max_K": 293.4043526,
+        "mean_K": 288.45214804099487,
+        "std_K": 0.4820355174176552,
+        "min_C": 14.71838660000003,
+        "max_C": 20.254352600000004,
+        "mean_C": 15.302148040994894
+      }
+    },
+    "plate_stats": {
+      "sensor_count": 10,
+      "min_C": 14.858786473516034,
+      "max_C": 21.761519088699004,
+      "mean_C": 15.682285288722774
+    },
+    "cell_sensor_count": 12,
+    "max_cell_temp_C_overall_min": 17.08456489890102,
+    "max_cell_temp_C_overall_max": 70.67018392692904,
+    "max_cell_temp_C_overall_mean": 19.9334453287299,
+    "cell_temp_spread_C_mean": 2.215089133204098,
+    "cell_temp_spread_C_max": 26.101760326797034,
+    "continuity_stats": {
+      "max_step_change_C": 1.8572045387109597,
+      "mean_step_change_C": 0.04117156892449141,
+      "median_step_change_C": 0.004050486135014353,
+      "rate_of_change_C_per_sec_max": 0.37144090774219196,
+      "rate_of_change_C_per_sec_mean": 0.008233669524633716
+    },
+    "autocorrs": {
+      "lag_1_step_5s": 0.99978437770759,
+      "lag_2_step_10s": 0.999154332510196,
+      "lag_6_step_30s": 0.9929041634044249,
+      "lag_12_step_60s": 0.9737498185512737,
+      "lag_24_step_120s": 0.9071872847937833,
+      "lag_60_step_300s": 0.5893426951279866
+    }
+  },
+  {
+    "exp_id": "ID17",
+    "run_dir": "ID17_20251204_111640041",
+    "csv_name": "FreeTwinEV_1s4p_ID_17.csv",
+    "file_size_bytes": 557695,
+    "data_rows": 1182,
+    "cols_count": 30,
+    "time_col_name": "timesamp",
+    "units": {
+      "timesamp": "s",
+      "current": "A",
+      "voltage": "V",
+      "SOC": "%",
+      "liquid_flow": "L/min",
+      "temp_ambient": "K",
+      "temp_inlet": "K",
+      "temp_outlet": "K",
+      "temp_TH1": "K",
+      "temp_TH2": "K",
+      "temp_TH3": "K",
+      "temp_TH4": "K",
+      "temp_TH5": "K",
+      "temp_TH6": "K",
+      "temp_TH7": "K",
+      "temp_TH8": "K",
+      "temp_TH9": "K",
+      "temp_TH10": "K",
+      "temp_cell-1_TH20": "K",
+      "temp_cell-1_TH21": "K",
+      "temp_cell-1_TH22": "K",
+      "temp_cell-2_TH17": "K",
+      "temp_cell-2_TH18": "K",
+      "temp_cell-2_TH19": "K",
+      "temp_cell-3_TH14": "K",
+      "temp_cell-3_TH15": "K",
+      "temp_cell-3_TH16": "K",
+      "temp_cell-4_TH11": "K",
+      "temp_cell-4_TH12": "K",
+      "temp_cell-4_TH13": "K"
+    },
+    "total_nulls": 0,
+    "is_monotonic": true,
+    "num_duplicates": 0,
+    "num_negative_steps": 0,
+    "duration_s": 5905.033,
+    "duration_min": 98.41721666666668,
+    "duration_h": 1.6402869444444446,
+    "dt_min": 4.887000000039734,
+    "dt_max": 5.121999999979835,
+    "dt_mean": 5.000027942421677,
+    "dt_median": 5.0,
+    "dt_std": 0.03267127833330205,
+    "num_gaps_gt_7_5s": 0,
+    "max_gap_s": 5.121999999979835,
+    "elec_stats": {
+      "current": {
+        "min": -40.148076,
+        "max": 0.00122366602,
+        "mean": -10.052571979788866,
+        "std": 17.39472743742583
+      },
+      "voltage": {
+        "min": 2.52068858,
+        "max": 4.18808551,
+        "mean": 3.6394747925634516,
+        "std": 0.5438909652955078
+      },
+      "SOC": {
+        "min": 2.36605550517529,
+        "max": 100.0,
+        "mean": 57.999535174508274,
+        "std": 44.050581029058634
+      }
+    },
+    "cooling_stats": {
+      "liquid_flow": {
+        "min_K": 0.0,
+        "max_K": 0.104316424,
+        "mean_K": 0.09168481579441624,
+        "std_K": 0.029694157354215687,
+        "min_C": null,
+        "max_C": null,
+        "mean_C": null
+      },
+      "temp_ambient": {
+        "min_K": 295.7474192,
+        "max_K": 296.4200479,
+        "mean_K": 296.0640499353638,
+        "std_K": 0.18853717112322604,
+        "min_C": 22.597419200000047,
+        "max_C": 23.27004790000001,
+        "mean_C": 22.914049935363835
+      },
+      "temp_inlet": {
+        "min_K": 288.2186917,
+        "max_K": 296.1002931,
+        "mean_K": 289.31697264729274,
+        "std_K": 2.199658479004883,
+        "min_C": 15.068691700000045,
+        "max_C": 22.95029310000001,
+        "mean_C": 16.166972647292766
+      },
+      "temp_outlet": {
+        "min_K": 288.596525,
+        "max_K": 296.2565437,
+        "mean_K": 289.8213814040609,
+        "std_K": 2.1878186024585564,
+        "min_C": 15.446525000000008,
+        "max_C": 23.10654370000003,
+        "mean_C": 16.671381404060924
+      }
+    },
+    "plate_stats": {
+      "sensor_count": 10,
+      "min_C": 15.66633362901905,
+      "max_C": 22.882774445424047,
+      "mean_C": 17.31568871976496
+    },
+    "cell_sensor_count": 12,
+    "max_cell_temp_C_overall_min": 18.273829969954022,
+    "max_cell_temp_C_overall_max": 40.40635505362803,
+    "max_cell_temp_C_overall_mean": 23.12811110023014,
+    "cell_temp_spread_C_mean": 3.2920805412255847,
+    "cell_temp_spread_C_max": 13.547637001703038,
+    "continuity_stats": {
+      "max_step_change_C": 0.5999007209030083,
+      "mean_step_change_C": 0.041653082538473454,
+      "median_step_change_C": 0.021108241204046863,
+      "rate_of_change_C_per_sec_max": 0.12065581675418967,
+      "rate_of_change_C_per_sec_mean": 0.008330511104630898
+    },
+    "autocorrs": {
+      "lag_1_step_5s": 0.9999098068189873,
+      "lag_2_step_10s": 0.9996462732206293,
+      "lag_6_step_30s": 0.9970572531485244,
+      "lag_12_step_60s": 0.9891952102278714,
+      "lag_24_step_120s": 0.9618900339357619,
+      "lag_60_step_300s": 0.8158702565951778
+    }
+  },
+  {
+    "exp_id": "ID18",
+    "run_dir": "ID18_20251204_144331500",
+    "csv_name": "FreeTwinEV_1s4p_ID_18.csv",
+    "file_size_bytes": 594925,
+    "data_rows": 1254,
+    "cols_count": 30,
+    "time_col_name": "timesamp",
+    "units": {
+      "timesamp": "s",
+      "current": "A",
+      "voltage": "V",
+      "SOC": "%",
+      "liquid_flow": "L/min",
+      "temp_ambient": "K",
+      "temp_inlet": "K",
+      "temp_outlet": "K",
+      "temp_TH1": "K",
+      "temp_TH2": "K",
+      "temp_TH3": "K",
+      "temp_TH4": "K",
+      "temp_TH5": "K",
+      "temp_TH6": "K",
+      "temp_TH7": "K",
+      "temp_TH8": "K",
+      "temp_TH9": "K",
+      "temp_TH10": "K",
+      "temp_cell-1_TH20": "K",
+      "temp_cell-1_TH21": "K",
+      "temp_cell-1_TH22": "K",
+      "temp_cell-2_TH17": "K",
+      "temp_cell-2_TH18": "K",
+      "temp_cell-2_TH19": "K",
+      "temp_cell-3_TH14": "K",
+      "temp_cell-3_TH15": "K",
+      "temp_cell-3_TH16": "K",
+      "temp_cell-4_TH11": "K",
+      "temp_cell-4_TH12": "K",
+      "temp_cell-4_TH13": "K"
+    },
+    "total_nulls": 0,
+    "is_monotonic": true,
+    "num_duplicates": 0,
+    "num_negative_steps": 0,
+    "duration_s": 6265.00099999999,
+    "duration_min": 104.41668333333317,
+    "duration_h": 1.7402780555555528,
+    "dt_min": 4.877000000036986,
+    "dt_max": 5.124000000009801,
+    "dt_mean": 5.0000007980845895,
+    "dt_median": 5.0,
+    "dt_std": 0.03463688044376656,
+    "num_gaps_gt_7_5s": 0,
+    "max_gap_s": 5.124000000009801,
+    "elec_stats": {
+      "current": {
+        "min": -80.2878257,
+        "max": -0.000980472017,
+        "mean": -9.347160779241714,
+        "std": 25.749681512572472
+      },
+      "voltage": {
+        "min": 2.54965153,
+        "max": 4.19252372,
+        "mean": 3.518531929385965,
+        "std": 0.5292677849838753
+      },
+      "SOC": {
+        "min": 3.70736396884625,
+        "max": 100.0,
+        "mean": 44.905492674179825,
+        "std": 45.7336344251804
+      }
+    },
+    "cooling_stats": {
+      "liquid_flow": {
+        "min_K": 0.0,
+        "max_K": 0.101427621,
+        "mean_K": 0.0900308194245614,
+        "std_K": 0.026684892660330296,
+        "min_C": null,
+        "max_C": null,
+        "mean_C": null
+      },
+      "temp_ambient": {
+        "min_K": 295.5413504,
+        "max_K": 296.5941066,
+        "mean_K": 295.8988614054227,
+        "std_K": 0.2905438097863173,
+        "min_C": 22.39135040000002,
+        "max_C": 23.444106599999998,
+        "mean_C": 22.7488614054227
+      },
+      "temp_inlet": {
+        "min_K": 288.2186864,
+        "max_K": 295.7222766,
+        "mean_K": 289.15708407352474,
+        "std_K": 1.9006451622230134,
+        "min_C": 15.068686400000047,
+        "max_C": 22.57227660000001,
+        "mean_C": 16.007084073524766
+      },
+      "temp_outlet": {
+        "min_K": 288.5349953,
+        "max_K": 296.6449433,
+        "mean_K": 289.7278499298246,
+        "std_K": 2.0665412112194628,
+        "min_C": 15.384995300000014,
+        "max_C": 23.494943300000045,
+        "mean_C": 16.577849929824595
+      }
+    },
+    "plate_stats": {
+      "sensor_count": 10,
+      "min_C": 15.62777407643,
+      "max_C": 24.60081114674,
+      "mean_C": 17.535661896895405
+    },
+    "cell_sensor_count": 12,
+    "max_cell_temp_C_overall_min": 18.22433029749402,
+    "max_cell_temp_C_overall_max": 68.07649703838501,
+    "max_cell_temp_C_overall_mean": 24.860511688476322,
+    "cell_temp_spread_C_mean": 4.220010513794428,
+    "cell_temp_spread_C_max": 29.269215092581987,
+    "continuity_stats": {
+      "max_step_change_C": 1.5849770648670187,
+      "mean_step_change_C": 0.08460874527114594,
+      "median_step_change_C": 0.009871891710986347,
+      "rate_of_change_C_per_sec_max": 0.31718572440993476,
+      "rate_of_change_C_per_sec_mean": 0.016920983080461586
+    },
+    "autocorrs": {
+      "lag_1_step_5s": 0.999860885658477,
+      "lag_2_step_10s": 0.9994583717130501,
+      "lag_6_step_30s": 0.9955794874831057,
+      "lag_12_step_60s": 0.9840273986073986,
+      "lag_24_step_120s": 0.944435033321253,
+      "lag_60_step_300s": 0.7393143827561519
+    }
+  },
+  {
+    "exp_id": "ID19",
+    "run_dir": "ID19_20251205_120936377",
+    "csv_name": "FreeTwinEV_1s4p_ID_19.csv",
+    "file_size_bytes": 1045527,
+    "data_rows": 2219,
+    "cols_count": 30,
+    "time_col_name": "timesamp",
+    "units": {
+      "timesamp": "s",
+      "current": "A",
+      "voltage": "V",
+      "SOC": "%",
+      "liquid_flow": "L/min",
+      "temp_ambient": "K",
+      "temp_inlet": "K",
+      "temp_outlet": "K",
+      "temp_TH1": "K",
+      "temp_TH2": "K",
+      "temp_TH3": "K",
+      "temp_TH4": "K",
+      "temp_TH5": "K",
+      "temp_TH6": "K",
+      "temp_TH7": "K",
+      "temp_TH8": "K",
+      "temp_TH9": "K",
+      "temp_TH10": "K",
+      "temp_cell-1_TH20": "K",
+      "temp_cell-1_TH21": "K",
+      "temp_cell-1_TH22": "K",
+      "temp_cell-2_TH17": "K",
+      "temp_cell-2_TH18": "K",
+      "temp_cell-2_TH19": "K",
+      "temp_cell-3_TH14": "K",
+      "temp_cell-3_TH15": "K",
+      "temp_cell-3_TH16": "K",
+      "temp_cell-4_TH11": "K",
+      "temp_cell-4_TH12": "K",
+      "temp_cell-4_TH13": "K"
+    },
+    "total_nulls": 0,
+    "is_monotonic": true,
+    "num_duplicates": 0,
+    "num_negative_steps": 0,
+    "duration_s": 11090.013,
+    "duration_min": 184.83355,
+    "duration_h": 3.0805591666666667,
+    "dt_min": 4.856999999959953,
+    "dt_max": 5.12900000000991,
+    "dt_mean": 5.000005861136159,
+    "dt_median": 5.0,
+    "dt_std": 0.03243345774006598,
+    "num_gaps_gt_7_5s": 0,
+    "max_gap_s": 5.12900000000991,
+    "elec_stats": {
+      "current": {
+        "min": -120.454597,
+        "max": 15.0626918,
+        "mean": -0.018946993299008588,
+        "std": 23.409296150913473
+      },
+      "voltage": {
+        "min": 2.96279145,
+        "max": 4.20441692,
+        "mean": 3.9157708436818384,
+        "std": 0.3193442821827747
+      },
+      "SOC": {
+        "min": 25.7929719334402,
+        "max": 100.0,
+        "mean": 69.16075935055488,
+        "std": 32.396444304572555
+      }
+    },
+    "cooling_stats": {
+      "liquid_flow": {
+        "min_K": 0.0862687269,
+        "max_K": 0.166640686,
+        "mean_K": 0.09464841932361424,
+        "std_K": 0.00957557003896931,
+        "min_C": null,
+        "max_C": null,
+        "mean_C": null
+      },
+      "temp_ambient": {
+        "min_K": 296.0049605,
+        "max_K": 297.8659724,
+        "mean_K": 296.46860367904463,
+        "std_K": 0.40656559179554713,
+        "min_C": 22.854960500000004,
+        "max_C": 24.7159724,
+        "mean_C": 23.318603679044656
+      },
+      "temp_inlet": {
+        "min_K": 288.2708142,
+        "max_K": 295.9494813,
+        "mean_K": 288.9173451210455,
+        "std_K": 1.465999454868246,
+        "min_C": 15.12081420000004,
+        "max_C": 22.799481300000025,
+        "mean_C": 15.767345121045537
+      },
+      "temp_outlet": {
+        "min_K": 288.5813704,
+        "max_K": 295.893279,
+        "mean_K": 289.3327513182966,
+        "std_K": 1.4482940456357236,
+        "min_C": 15.431370400000048,
+        "max_C": 22.74327900000003,
+        "mean_C": 16.182751318296596
+      }
+    },
+    "plate_stats": {
+      "sensor_count": 10,
+      "min_C": 15.69712056260704,
+      "max_C": 26.767763949782022,
+      "mean_C": 16.906556554606187
+    },
+    "cell_sensor_count": 12,
+    "max_cell_temp_C_overall_min": 18.339889261316046,
+    "max_cell_temp_C_overall_max": 69.485593512033,
+    "max_cell_temp_C_overall_mean": 22.40259707820456,
+    "cell_temp_spread_C_mean": 2.894736899731662,
+    "cell_temp_spread_C_max": 22.505582199728963,
+    "continuity_stats": {
+      "max_step_change_C": 1.2863895756190118,
+      "mean_step_change_C": 0.051622197245784984,
+      "median_step_change_C": 0.005977881912002658,
+      "rate_of_change_C_per_sec_max": 0.2584668626916504,
+      "rate_of_change_C_per_sec_mean": 0.01032474085888432
+    },
+    "autocorrs": {
+      "lag_1_step_5s": 0.9998127636531544,
+      "lag_2_step_10s": 0.99925745808591,
+      "lag_6_step_30s": 0.9935639226172568,
+      "lag_12_step_60s": 0.9756071201869301,
+      "lag_24_step_120s": 0.9119095281515169,
+      "lag_60_step_300s": 0.5965806100640073
+    }
+  },
+  {
+    "exp_id": "ID20",
+    "run_dir": "ID20_20251205_160840427",
+    "csv_name": "FreeTwinEV_1s4p_ID_20.csv",
+    "file_size_bytes": 575578,
+    "data_rows": 1224,
+    "cols_count": 30,
+    "time_col_name": "timesamp",
+    "units": {
+      "timesamp": "s",
+      "current": "A",
+      "voltage": "V",
+      "SOC": "%",
+      "liquid_flow": "L/min",
+      "temp_ambient": "K",
+      "temp_inlet": "K",
+      "temp_outlet": "K",
+      "temp_TH1": "K",
+      "temp_TH2": "K",
+      "temp_TH3": "K",
+      "temp_TH4": "K",
+      "temp_TH5": "K",
+      "temp_TH6": "K",
+      "temp_TH7": "K",
+      "temp_TH8": "K",
+      "temp_TH9": "K",
+      "temp_TH10": "K",
+      "temp_cell-1_TH20": "K",
+      "temp_cell-1_TH21": "K",
+      "temp_cell-1_TH22": "K",
+      "temp_cell-2_TH17": "K",
+      "temp_cell-2_TH18": "K",
+      "temp_cell-2_TH19": "K",
+      "temp_cell-3_TH14": "K",
+      "temp_cell-3_TH15": "K",
+      "temp_cell-3_TH16": "K",
+      "temp_cell-4_TH11": "K",
+      "temp_cell-4_TH12": "K",
+      "temp_cell-4_TH13": "K"
+    },
+    "total_nulls": 0,
+    "is_monotonic": true,
+    "num_duplicates": 0,
+    "num_negative_steps": 0,
+    "duration_s": 6115.0,
+    "duration_min": 101.91666666666667,
+    "duration_h": 1.698611111111111,
+    "dt_min": 4.830000000019936,
+    "dt_max": 5.157999999999902,
+    "dt_mean": 5.0,
+    "dt_median": 5.0,
+    "dt_std": 0.03902463737062567,
+    "num_gaps_gt_7_5s": 0,
+    "max_gap_s": 5.157999999999902,
+    "elec_stats": {
+      "current": {
+        "min": -40.1454294,
+        "max": -0.00111284343,
+        "mean": -9.642735238235867,
+        "std": 17.150668781927653
+      },
+      "voltage": {
+        "min": 2.52480401,
+        "max": 4.18843692,
+        "mean": 3.5321831692238557,
+        "std": 0.5323362628366369
+      },
+      "SOC": {
+        "min": 3.0218447302664,
+        "max": 100.0,
+        "mean": 48.38246804523041,
+        "std": 44.34548259990438
+      }
+    },
+    "cooling_stats": {
+      "liquid_flow": {
+        "min_K": 0.0,
+        "max_K": 2.59115406,
+        "mean_K": 1.3615023021977124,
+        "std_K": 0.43976876455129865,
+        "min_C": null,
+        "max_C": null,
+        "mean_C": null
+      },
+      "temp_ambient": {
+        "min_K": 296.14747,
+        "max_K": 297.1807033,
+        "mean_K": 296.5090611988562,
+        "std_K": 0.2666966205930416,
+        "min_C": 22.99747000000002,
+        "max_C": 24.030703300000027,
+        "mean_C": 23.35906119885624
+      },
+      "temp_inlet": {
+        "min_K": 287.7476151,
+        "max_K": 295.462483,
+        "mean_K": 288.9153290378268,
+        "std_K": 1.82545845635492,
+        "min_C": 14.597615100000041,
+        "max_C": 22.312483000000043,
+        "mean_C": 15.765329037826803
+      },
+      "temp_outlet": {
+        "min_K": 287.7939666,
+        "max_K": 295.6704531,
+        "mean_K": 289.0566931688726,
+        "std_K": 2.1218225823222667,
+        "min_C": 14.643966599999999,
+        "max_C": 22.520453099999997,
+        "mean_C": 15.906693168872607
+      }
+    },
+    "plate_stats": {
+      "sensor_count": 10,
+      "min_C": 14.86302957018205,
+      "max_C": 22.17836868437803,
+      "mean_C": 16.333776616765917
+    },
+    "cell_sensor_count": 12,
+    "max_cell_temp_C_overall_min": 18.073664806742045,
+    "max_cell_temp_C_overall_max": 40.90429775760305,
+    "max_cell_temp_C_overall_mean": 22.274169976822574,
+    "cell_temp_spread_C_mean": 3.2127408322872593,
+    "cell_temp_spread_C_max": 15.094871858676015,
+    "continuity_stats": {
+      "max_step_change_C": 0.6795602650300339,
+      "mean_step_change_C": 0.041577667388393066,
+      "median_step_change_C": 0.013923319877051199,
+      "rate_of_change_C_per_sec_max": 0.13213304783835775,
+      "rate_of_change_C_per_sec_mean": 0.008314574657349218
+    },
+    "autocorrs": {
+      "lag_1_step_5s": 0.9998682119044728,
+      "lag_2_step_10s": 0.9994897122260193,
+      "lag_6_step_30s": 0.9958788758235094,
+      "lag_12_step_60s": 0.9854830154876844,
+      "lag_24_step_120s": 0.9514771428958871,
+      "lag_60_step_300s": 0.7873264342453661
+    }
+  },
+  {
+    "exp_id": "ID21",
+    "run_dir": "ID21_20251209_144434492",
+    "csv_name": "FreeTwinEV_1s4p_ID_21.csv",
+    "file_size_bytes": 678370,
+    "data_rows": 1433,
+    "cols_count": 30,
+    "time_col_name": "timesamp",
+    "units": {
+      "timesamp": "s",
+      "current": "A",
+      "voltage": "V",
+      "SOC": "%",
+      "liquid_flow": "L/min",
+      "temp_ambient": "K",
+      "temp_inlet": "K",
+      "temp_outlet": "K",
+      "temp_TH1": "K",
+      "temp_TH2": "K",
+      "temp_TH3": "K",
+      "temp_TH4": "K",
+      "temp_TH5": "K",
+      "temp_TH6": "K",
+      "temp_TH7": "K",
+      "temp_TH8": "K",
+      "temp_TH9": "K",
+      "temp_TH10": "K",
+      "temp_cell-1_TH20": "K",
+      "temp_cell-1_TH21": "K",
+      "temp_cell-1_TH22": "K",
+      "temp_cell-2_TH17": "K",
+      "temp_cell-2_TH18": "K",
+      "temp_cell-2_TH19": "K",
+      "temp_cell-3_TH14": "K",
+      "temp_cell-3_TH15": "K",
+      "temp_cell-3_TH16": "K",
+      "temp_cell-4_TH11": "K",
+      "temp_cell-4_TH12": "K",
+      "temp_cell-4_TH13": "K"
+    },
+    "total_nulls": 0,
+    "is_monotonic": true,
+    "num_duplicates": 0,
+    "num_negative_steps": 0,
+    "duration_s": 7160.02599999995,
+    "duration_min": 119.33376666666582,
+    "duration_h": 1.9888961111110972,
+    "dt_min": 3.412999999941917,
+    "dt_max": 7.4130000000589575,
+    "dt_mean": 5.000018156424546,
+    "dt_median": 5.0,
+    "dt_std": 0.13647252350683417,
+    "num_gaps_gt_7_5s": 0,
+    "max_gap_s": 7.4130000000589575,
+    "elec_stats": {
+      "current": {
+        "min": -40.1492635,
+        "max": -0.00244810164,
+        "mean": -8.154644195730572,
+        "std": 16.15047344467624
+      },
+      "voltage": {
+        "min": 2.5526619,
+        "max": 4.19594822,
+        "mean": 3.5632689748150734,
+        "std": 0.5326351290529688
+      },
+      "SOC": {
+        "min": 4.00648562781693,
+        "max": 100.0,
+        "mean": 50.095386724130435,
+        "std": 44.604767767919846
+      }
+    },
+    "cooling_stats": {
+      "liquid_flow": {
+        "min_K": 0.0,
+        "max_K": 86.2657102,
+        "mean_K": 1.5872475281454015,
+        "std_K": 4.616707949063148,
+        "min_C": null,
+        "max_C": null,
+        "mean_C": null
+      },
+      "temp_ambient": {
+        "min_K": 296.8050478,
+        "max_K": 297.5318921,
+        "mean_K": 297.27650751053733,
+        "std_K": 0.1518020466082816,
+        "min_C": 23.655047800000034,
+        "max_C": 24.381892100000016,
+        "mean_C": 24.12650751053735
+      },
+      "temp_inlet": {
+        "min_K": 278.01708152,
+        "max_K": 296.0356155,
+        "mean_K": 280.1395917959107,
+        "std_K": 5.310345995995018,
+        "min_C": 4.867081519999999,
+        "max_C": 22.88561550000003,
+        "mean_C": 6.989591795910712
+      },
+      "temp_outlet": {
+        "min_K": 278.09702751,
+        "max_K": 296.2358972,
+        "mean_K": 280.26101382333565,
+        "std_K": 5.427092899887999,
+        "min_C": 4.947027509999998,
+        "max_C": 23.085897200000034,
+        "mean_C": 7.111013823335668
+      }
+    },
+    "plate_stats": {
+      "sensor_count": 10,
+      "min_C": 5.0045985577950205,
+      "max_C": 23.16462660952601,
+      "mean_C": 7.937707495008544
+    },
+    "cell_sensor_count": 12,
+    "max_cell_temp_C_overall_min": 12.42239250183701,
+    "max_cell_temp_C_overall_max": 28.190724561973013,
+    "max_cell_temp_C_overall_mean": 17.07809979565436,
+    "cell_temp_spread_C_mean": 4.702642086483862,
+    "cell_temp_spread_C_max": 9.039853735277006,
+    "continuity_stats": {
+      "max_step_change_C": 0.17268401139699563,
+      "mean_step_change_C": 0.030073415656489532,
+      "median_step_change_C": 0.00964191274448467,
+      "rate_of_change_C_per_sec_max": 0.034194853741639386,
+      "rate_of_change_C_per_sec_mean": 0.006014563816195925
+    },
+    "autocorrs": {
+      "lag_1_step_5s": 0.9999459325545699,
+      "lag_2_step_10s": 0.999784403001844,
+      "lag_6_step_30s": 0.9980897450656737,
+      "lag_12_step_60s": 0.992557764091148,
+      "lag_24_step_120s": 0.9718631026534524,
+      "lag_60_step_300s": 0.8509012861840094
+    }
+  },
+  {
+    "exp_id": "ID22",
+    "run_dir": "ID22_20251210_144332381",
+    "csv_name": "FreeTwinEV_1s4p_ID_22.csv",
+    "file_size_bytes": 765474,
+    "data_rows": 1622,
+    "cols_count": 30,
+    "time_col_name": "timesamp",
+    "units": {
+      "timesamp": "s",
+      "current": "A",
+      "voltage": "V",
+      "SOC": "%",
+      "liquid_flow": "L/min",
+      "temp_ambient": "K",
+      "temp_inlet": "K",
+      "temp_outlet": "K",
+      "temp_TH1": "K",
+      "temp_TH2": "K",
+      "temp_TH3": "K",
+      "temp_TH4": "K",
+      "temp_TH5": "K",
+      "temp_TH6": "K",
+      "temp_TH7": "K",
+      "temp_TH8": "K",
+      "temp_TH9": "K",
+      "temp_TH10": "K",
+      "temp_cell-1_TH20": "K",
+      "temp_cell-1_TH21": "K",
+      "temp_cell-1_TH22": "K",
+      "temp_cell-2_TH17": "K",
+      "temp_cell-2_TH18": "K",
+      "temp_cell-2_TH19": "K",
+      "temp_cell-3_TH14": "K",
+      "temp_cell-3_TH15": "K",
+      "temp_cell-3_TH16": "K",
+      "temp_cell-4_TH11": "K",
+      "temp_cell-4_TH12": "K",
+      "temp_cell-4_TH13": "K"
+    },
+    "total_nulls": 0,
+    "is_monotonic": true,
+    "num_duplicates": 0,
+    "num_negative_steps": 0,
+    "duration_s": 8105.10100000002,
+    "duration_min": 135.085016666667,
+    "duration_h": 2.25141694444445,
+    "dt_min": 3.914999999921065,
+    "dt_max": 6.878000000019938,
+    "dt_mean": 5.000062307217779,
+    "dt_median": 5.000999999930173,
+    "dt_std": 0.1452229342113805,
+    "num_gaps_gt_7_5s": 0,
+    "max_gap_s": 6.878000000019938,
+    "elec_stats": {
+      "current": {
+        "min": -80.3004356,
+        "max": -0.00104896653,
+        "mean": -7.179807746908707,
+        "std": 22.90702800971724
+      },
+      "voltage": {
+        "min": 2.55109624,
+        "max": 4.18811342,
+        "mean": 3.6496608999999998,
+        "std": 0.5552435075260246
+      },
+      "SOC": {
+        "min": 4.34396047218225,
+        "max": 100.0,
+        "mean": 57.12653067350264,
+        "std": 46.129890675326955
+      }
+    },
+    "cooling_stats": {
+      "liquid_flow": {
+        "min_K": 0.0,
+        "max_K": 90.9444871,
+        "mean_K": 2.3898423332860665,
+        "std_K": 8.403809752649579,
+        "min_C": null,
+        "max_C": null,
+        "mean_C": null
+      },
+      "temp_ambient": {
+        "min_K": 296.9076769,
+        "max_K": 297.7317895,
+        "mean_K": 297.2245874678175,
+        "std_K": 0.2145489706545196,
+        "min_C": 23.757676900000035,
+        "max_C": 24.581789500000014,
+        "mean_C": 24.074587467817537
+      },
+      "temp_inlet": {
+        "min_K": 278.01718598,
+        "max_K": 295.523806,
+        "mean_K": 281.064488430037,
+        "std_K": 6.304671877455518,
+        "min_C": 4.867185980000045,
+        "max_C": 22.373806000000002,
+        "mean_C": 7.914488430037011
+      },
+      "temp_outlet": {
+        "min_K": 278.07598747,
+        "max_K": 297.1228008,
+        "mean_K": 281.38860215645497,
+        "std_K": 6.839267152246588,
+        "min_C": 4.9259874699999955,
+        "max_C": 23.972800800000016,
+        "mean_C": 8.238602156454988
+      }
+    },
+    "plate_stats": {
+      "sensor_count": 10,
+      "min_C": 5.397213714613997,
+      "max_C": 23.929857462606037,
+      "mean_C": 9.109933771077921
+    },
+    "cell_sensor_count": 12,
+    "max_cell_temp_C_overall_min": 12.349395811778038,
+    "max_cell_temp_C_overall_max": 48.03534265296304,
+    "max_cell_temp_C_overall_mean": 18.772698171968074,
+    "cell_temp_spread_C_mean": 5.129786204243496,
+    "cell_temp_spread_C_max": 17.231351093075034,
+    "continuity_stats": {
+      "max_step_change_C": 0.5593933098190291,
+      "mean_step_change_C": 0.05167049698590612,
+      "median_step_change_C": 0.005071870221001973,
+      "rate_of_change_C_per_sec_max": 0.11125563043492302,
+      "rate_of_change_C_per_sec_mean": 0.010333917922892929
+    },
+    "autocorrs": {
+      "lag_1_step_5s": 0.9999116666542692,
+      "lag_2_step_10s": 0.999647757215432,
+      "lag_6_step_30s": 0.9968905044838872,
+      "lag_12_step_60s": 0.9880029959553049,
+      "lag_24_step_120s": 0.9554367951537011,
+      "lag_60_step_300s": 0.7727777539589277
+    }
+  }
+]

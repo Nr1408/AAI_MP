@@ -1,0 +1,135 @@
+{
+  "phase": "Phase 11",
+  "status": "PASS",
+  "timestamp": "2026-10-05T05:46:06.786178+00:00",
+  "failed_checks": [],
+  "checks": {
+    "artifact_exists_freetwinev_phase11_final_report.md": {
+      "status": "PASS",
+      "path": "reports\\freetwinev_phase11_final_report.md",
+      "size": 12232
+    },
+    "artifact_exists_freetwinev_phase11_presentation.md": {
+      "status": "PASS",
+      "path": "reports\\freetwinev_phase11_presentation.md",
+      "size": 5502
+    },
+    "phase6_60s_Test_MAE": {
+      "status": "PASS",
+      "expected": 0.2271,
+      "actual": 0.2270694156221607
+    },
+    "phase6_60s_Test_RMSE": {
+      "status": "PASS",
+      "expected": 0.8256,
+      "actual": 0.8256220398329199
+    },
+    "phase6_60s_Test_R2": {
+      "status": "PASS",
+      "expected": 0.806,
+      "actual": 0.8059626148092616
+    },
+    "phase6_300s_Test_MAE": {
+      "status": "PASS",
+      "expected": 1.9302,
+      "actual": 1.9301917939901876
+    },
+    "phase6_300s_Test_RMSE": {
+      "status": "PASS",
+      "expected": 4.9649,
+      "actual": 4.964924829171635
+    },
+    "phase6_300s_Test_R2": {
+      "status": "PASS",
+      "expected": 0.5836,
+      "actual": 0.5836370589767901
+    },
+    "phase5_audit_pass": {
+      "status": "PASS",
+      "observed": "PASS",
+      "top_level_status": null,
+      "overall_status": "PASS"
+    },
+    "phase6_audit_pass": {
+      "status": "PASS",
+      "observed": "PASS",
+      "top_level_status": "PASS",
+      "overall_status": "PASS"
+    },
+    "phase7_audit_pass": {
+      "status": "PASS",
+      "observed": "PASS",
+      "top_level_status": null,
+      "overall_status": "PASS"
+    },
+    "phase8_audit_pass": {
+      "status": "PASS",
+      "observed": "PASS",
+      "top_level_status": "COMPLETE",
+      "overall_status": "PASS"
+    },
+    "phase9_audit_pass": {
+      "status": "PASS",
+      "observed": "PASS",
+      "top_level_status": "COMPLETE",
+      "overall_status": "PASS"
+    },
+    "phase10_audit_pass": {
+      "status": "PASS",
+      "observed": "PASS",
+      "top_level_status": "PASS",
+      "overall_status": null
+    }
+  },
+  "audit_status_note": "Phase 8 and Phase 9 use top-level status COMPLETE with overall_status PASS. This audit treats overall_status PASS as the substantive prior-phase audit result.",
+  "prior_audit_statuses": {
+    "phase5": {
+      "top_level_status": null,
+      "overall_status": "PASS"
+    },
+    "phase6": {
+      "top_level_status": "PASS",
+      "overall_status": "PASS"
+    },
+    "phase7": {
+      "top_level_status": null,
+      "overall_status": "PASS"
+    },
+    "phase8": {
+      "top_level_status": "COMPLETE",
+      "overall_status": "PASS"
+    },
+    "phase9": {
+      "top_level_status": "COMPLETE",
+      "overall_status": "PASS"
+    },
+    "phase10": {
+      "top_level_status": "PASS",
+      "overall_status": null
+    }
+  },
+  "frozen_artifact_hashes": {
+    "results\\freetwinev\\phase5_audit.json": "1379b3642959e3b53d3d361b26fcc5f8127420167ea88c2ef036e2bc62c47e59",
+    "results\\freetwinev\\phase5_results.csv": "ce98ac24848471c19105d8ff0e218545d73a322f55f14176358be86ea5b79811",
+    "results\\freetwinev\\phase6_audit.json": "4b3be7d51a488c8c96dfb44b643e30f8e020ea1e411d44938ae944897e003de4",
+    "results\\freetwinev\\phase6_results.csv": "0a1e5c49f6eea8476938be9762ba8c568dfc43854a65e47f06ebd7092624614d",
+    "results\\freetwinev\\phase6_results_per_run.csv": "836c6fc02342429113322f17717843e71d61fc3c80b1d36084259d8f6733ef9f",
+    "results\\freetwinev\\phase7_audit.json": "b7c0e0b2d5f883892ff67f1ba6814d8fc03c8ac06fa762aa7493bcf34d7abdef",
+    "results\\freetwinev\\phase8_audit.json": "0e6265dc69a86ec801e8b752c8739df19aad137a067b5fadd1ae9edd73499f62",
+    "results\\freetwinev\\phase8_thresholds.json": "30aff3d7dbd98470c679f61c7134a73351b7f35790ea3337023b5cca23a3fd6c",
+    "results\\freetwinev\\phase9_audit.json": "40dc2c0a7e7078da04748e915ff15d58b79245b9f3b8b7e8ccfe3e577d9d889b",
+    "results\\freetwinev\\phase9_recommendation_config.json": "3e2f883e257edd25fc31679dcca8c41116aeb263b6cf7ae72b8be8c6c04ece0a",
+    "results\\freetwinev\\phase10_dashboard_audit.json": "c51f80a871cab629bc937239e6d8ed02c71876863a7addf39a3627d105b6f2a9",
+    "results\\freetwinev\\preprocessed\\feature_manifest.json": "bca22d841bdb9e27cd557a4bb9f0f68e73fd7f51319ab4824c29b84f306f74fe",
+    "results\\freetwinev\\preprocessed\\preprocessing_config.json": "363ab332474e33d220c3804d44ec41651f82f0900998d8193e2f668bf04366c0",
+    "results\\freetwinev\\preprocessed\\split_manifest.csv": "d977326cb4b1ab85a461be98c419cba53aafcf574d33b02d1df6eef898fe1f1d"
+  },
+  "phase11_artifacts": {
+    "report": "reports\\freetwinev_phase11_final_report.md",
+    "presentation": "reports\\freetwinev_phase11_presentation.md"
+  },
+  "methodology_changes": false,
+  "model_retraining": false,
+  "test_tuning": false,
+  "new_predictions": false
+}

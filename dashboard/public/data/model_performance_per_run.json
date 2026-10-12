@@ -1,0 +1,46 @@
+[
+  {
+    "horizon": "60s",
+    "model": "Ridge Regression",
+    "run": "ID18",
+    "n": 1242,
+    "mae": 0.3045,
+    "rmse": 0.9191,
+    "r2": 0.7769,
+    "bias": -0.0308,
+    "max_ae": 11.0222
+  },
+  {
+    "horizon": "60s",
+    "model": "Ridge Regression",
+    "run": "ID19",
+    "n": 2207,
+    "mae": 0.1835,
+    "rmse": 0.7681,
+    "r2": 0.8244,
+    "bias": 0.0772,
+    "max_ae": 12.2504
+  },
+  {
+    "horizon": "300s",
+    "model": "Linear Regression",
+    "run": "ID18",
+    "n": 1194,
+    "mae": 2.2479,
+    "rmse": 4.6361,
+    "r2": 0.6632,
+    "bias": -0.7394,
+    "max_ae": 22.0166
+  },
+  {
+    "horizon": "300s",
+    "model": "Linear Regression",
+    "run": "ID19",
+    "n": 2159,
+    "mae": 1.7545,
+    "rmse": 5.1377,
+    "r2": 0.534,
+    "bias": -0.2143,
+    "max_ae": 43.3812
+  }
+]

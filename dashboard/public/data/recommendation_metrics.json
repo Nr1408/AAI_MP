@@ -1,0 +1,50 @@
+[
+  {
+    "horizon": "300s",
+    "run": "ID18",
+    "n": 1194,
+    "maintain": 734,
+    "increase_cooling": 0,
+    "high_attention": 460,
+    "critical_action": 0,
+    "transitions": 4,
+    "mean_flow": 0.0897,
+    "max_spread": 29.269
+  },
+  {
+    "horizon": "300s",
+    "run": "ID19",
+    "n": 2159,
+    "maintain": 1379,
+    "increase_cooling": 0,
+    "high_attention": 780,
+    "critical_action": 0,
+    "transitions": 12,
+    "mean_flow": 0.0948,
+    "max_spread": 22.506
+  },
+  {
+    "horizon": "60s",
+    "run": "ID18",
+    "n": 1242,
+    "maintain": 682,
+    "increase_cooling": 0,
+    "high_attention": 560,
+    "critical_action": 0,
+    "transitions": 4,
+    "mean_flow": 0.09,
+    "max_spread": 29.269
+  },
+  {
+    "horizon": "60s",
+    "run": "ID19",
+    "n": 2207,
+    "maintain": 1043,
+    "increase_cooling": 0,
+    "high_attention": 1155,
+    "critical_action": 9,
+    "transitions": 16,
+    "mean_flow": 0.0947,
+    "max_spread": 22.506
+  }
+]

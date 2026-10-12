@@ -1,0 +1,4 @@
+model,cv_train_MAE_mean,cv_validation_MAE_mean,cv_validation_MAE_std,cv_train_RMSE_mean,cv_validation_RMSE_mean,cv_validation_RMSE_std,cv_train_R2_mean,cv_validation_R2_mean,cv_validation_R2_std,final_test_MAE,final_test_RMSE,final_test_R2,selected_by_validation
+Random Forest,5.884432,14.427252,0.778566,6.906409,16.566178,0.755480,0.800232,-0.089126,0.058029,14.274888,16.563605,-0.105773,True
+Linear Regression,12.913988,14.580126,0.728130,14.931810,16.869459,0.778888,0.068151,-0.130214,0.078318,13.767673,15.901762,-0.019171,False
+XGBoost,3.013322,14.622048,0.840819,3.706773,17.069756,0.733879,0.928727,-0.160888,0.116991,14.922386,17.505200,-0.235067,False

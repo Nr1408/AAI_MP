@@ -1,0 +1,113 @@
+{
+  "phase": "Phase 7",
+  "overall_status": "PASS",
+  "execution_timestamp": "2026-10-01T15:13:18.721752",
+  "models_changed": false,
+  "model_refitting": false,
+  "methodology": {
+    "prediction_source": "persisted Phase 4 selected-model validation predictions",
+    "refit_required": false,
+    "rolling_window_samples": 12,
+    "sampling_interval_seconds": 5,
+    "rolling_window_seconds": 60,
+    "rolling_metrics": [
+      "trailing MAE",
+      "trailing RMSE"
+    ],
+    "regime_method": "Spearman correlation of absolute error with frozen Extended features; descriptive high-load subset uses validation current_abs 75th percentile",
+    "validation_runs": [
+      "ID16",
+      "ID22"
+    ],
+    "test_runs_development_locked": true,
+    "validation_thresholds_current_abs": {
+      "60s": 0.00634228406,
+      "300s": 0.00653930198
+    }
+  },
+  "validation_order_check": {
+    "status": "PASS",
+    "expected_runs": true,
+    "no_duplicate_temporal_rows": true,
+    "strict_time_order_within_run": true,
+    "both_horizons_present": true,
+    "no_missing_predictions": true
+  },
+  "test_order_check_posthoc": {
+    "status": "PASS",
+    "expected_runs": true,
+    "no_duplicate_temporal_rows": true,
+    "strict_time_order_within_run": true,
+    "both_horizons_present": true,
+    "no_missing_predictions": true
+  },
+  "frozen_artifact_hashes_before": {
+    "results\\freetwinev\\phase5_config.json": "0560d52cda2f52802eee433683c569935f50bc85c38be88c2e89286ad288b463",
+    "results\\freetwinev\\phase5_audit.json": "1379b3642959e3b53d3d361b26fcc5f8127420167ea88c2ef036e2bc62c47e59",
+    "results\\freetwinev\\phase5_results.csv": "ce98ac24848471c19105d8ff0e218545d73a322f55f14176358be86ea5b79811",
+    "results\\freetwinev\\phase5_results_per_run.csv": "cff5cd0bb81ab29db73776faa8318843e5c86b3f2869b6cdbc4a3ce66d58d940",
+    "results\\freetwinev\\phase6_audit.json": "4b3be7d51a488c8c96dfb44b643e30f8e020ea1e411d44938ae944897e003de4",
+    "results\\freetwinev\\phase6_results.csv": "0a1e5c49f6eea8476938be9762ba8c568dfc43854a65e47f06ebd7092624614d",
+    "results\\freetwinev\\phase6_results_per_run.csv": "836c6fc02342429113322f17717843e71d61fc3c80b1d36084259d8f6733ef9f",
+    "results\\freetwinev\\phase6_predictions_test.csv": "94e12715d3198499304c9ca54ea280535fdd25f56d429a63914a20131065aaba",
+    "results\\freetwinev\\preprocessed\\preprocessing_config.json": "363ab332474e33d220c3804d44ec41651f82f0900998d8193e2f668bf04366c0",
+    "results\\freetwinev\\preprocessed\\feature_manifest.json": "bca22d841bdb9e27cd557a4bb9f0f68e73fd7f51319ab4824c29b84f306f74fe",
+    "results\\freetwinev\\preprocessed\\split_manifest.csv": "d977326cb4b1ab85a461be98c419cba53aafcf574d33b02d1df6eef898fe1f1d"
+  },
+  "frozen_artifact_hashes_after": {
+    "results\\freetwinev\\phase5_config.json": "0560d52cda2f52802eee433683c569935f50bc85c38be88c2e89286ad288b463",
+    "results\\freetwinev\\phase5_audit.json": "1379b3642959e3b53d3d361b26fcc5f8127420167ea88c2ef036e2bc62c47e59",
+    "results\\freetwinev\\phase5_results.csv": "ce98ac24848471c19105d8ff0e218545d73a322f55f14176358be86ea5b79811",
+    "results\\freetwinev\\phase5_results_per_run.csv": "cff5cd0bb81ab29db73776faa8318843e5c86b3f2869b6cdbc4a3ce66d58d940",
+    "results\\freetwinev\\phase6_audit.json": "4b3be7d51a488c8c96dfb44b643e30f8e020ea1e411d44938ae944897e003de4",
+    "results\\freetwinev\\phase6_results.csv": "0a1e5c49f6eea8476938be9762ba8c568dfc43854a65e47f06ebd7092624614d",
+    "results\\freetwinev\\phase6_results_per_run.csv": "836c6fc02342429113322f17717843e71d61fc3c80b1d36084259d8f6733ef9f",
+    "results\\freetwinev\\phase6_predictions_test.csv": "94e12715d3198499304c9ca54ea280535fdd25f56d429a63914a20131065aaba",
+    "results\\freetwinev\\preprocessed\\preprocessing_config.json": "363ab332474e33d220c3804d44ec41651f82f0900998d8193e2f668bf04366c0",
+    "results\\freetwinev\\preprocessed\\feature_manifest.json": "bca22d841bdb9e27cd557a4bb9f0f68e73fd7f51319ab4824c29b84f306f74fe",
+    "results\\freetwinev\\preprocessed\\split_manifest.csv": "d977326cb4b1ab85a461be98c419cba53aafcf574d33b02d1df6eef898fe1f1d"
+  },
+  "checks": {
+    "phase3_to_phase6_hashes_unchanged": true,
+    "feature_contract": {
+      "status": "PASS",
+      "feature_count": 21,
+      "forbidden_feature_columns": []
+    },
+    "partition_unchanged": true,
+    "id18_id19_not_used_for_development_decisions": true,
+    "no_test_tuning": true,
+    "no_preprocessing_leakage": true,
+    "validation_temporal_order": {
+      "status": "PASS",
+      "expected_runs": true,
+      "no_duplicate_temporal_rows": true,
+      "strict_time_order_within_run": true,
+      "both_horizons_present": true,
+      "no_missing_predictions": true
+    },
+    "test_temporal_order_posthoc": {
+      "status": "PASS",
+      "expected_runs": true,
+      "no_duplicate_temporal_rows": true,
+      "strict_time_order_within_run": true,
+      "both_horizons_present": true,
+      "no_missing_predictions": true
+    },
+    "no_duplicate_temporal_prediction_rows": true,
+    "both_horizons_represented": true,
+    "required_outputs_exist": true,
+    "validation_decisions_precede_test_access": true,
+    "notebook_valid_json": {
+      "status": "PASS",
+      "cell_count": 19,
+      "all_cells_have_language": true,
+      "all_cells_have_id": true
+    },
+    "source_files_compile": {
+      "status": "PASS"
+    }
+  },
+  "test_usage": "Phase 6 persisted predictions and frozen test feature rows used only for post-hoc reporting after validation methodology was fixed",
+  "phase_boundary": "Stop after Phase 7; no Phase 8 work performed"
+}

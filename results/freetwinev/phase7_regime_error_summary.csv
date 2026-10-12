@@ -1,0 +1,37 @@
+Split,Horizon,Analysis,Variable,Value,N
+validation,60s,Spearman correlation,current_abs,-0.02299195260701813,4513
+validation,60s,Spearman correlation,abs_power_gross,-0.07417235322469232,4513
+validation,60s,Spearman correlation,SOC,-0.3154977715226819,4513
+validation,60s,Spearman correlation,liquid_flow,0.001970929372255977,4513
+validation,60s,Spearman correlation,temp_inlet_C,-0.02853548570424627,4513
+validation,60s,Spearman correlation,T_cell_max,0.4365204613944494,4513
+validation,60s,Spearman correlation,T_cell_spread,0.1388833481818202,4513
+validation,60s,Spearman correlation,abs_thermal_change_30s,0.48944499418902193,4513
+validation,60s,High-load descriptive subset MAE,current_abs >= validation 75th percentile,0.2539631968061878,1129
+validation,300s,Spearman correlation,current_abs,-0.23043323997641244,4417
+validation,300s,Spearman correlation,abs_power_gross,-0.10070008048365175,4417
+validation,300s,Spearman correlation,SOC,0.2471989127110997,4417
+validation,300s,Spearman correlation,liquid_flow,-0.1883043930322731,4417
+validation,300s,Spearman correlation,temp_inlet_C,0.4228147629366828,4417
+validation,300s,Spearman correlation,T_cell_max,0.2541031467870597,4417
+validation,300s,Spearman correlation,T_cell_spread,-0.3782212106450206,4417
+validation,300s,Spearman correlation,abs_thermal_change_30s,0.09338172439663472,4417
+validation,300s,High-load descriptive subset MAE,current_abs >= validation 75th percentile,2.3571136496269323,1105
+test_posthoc,60s,Spearman correlation,current_abs,-0.11958519100915649,3449
+test_posthoc,60s,Spearman correlation,abs_power_gross,-0.1993184790015846,3449
+test_posthoc,60s,Spearman correlation,SOC,-0.40596087214846577,3449
+test_posthoc,60s,Spearman correlation,liquid_flow,0.22860875246281334,3449
+test_posthoc,60s,Spearman correlation,temp_inlet_C,-0.28375069366170524,3449
+test_posthoc,60s,Spearman correlation,T_cell_max,0.29035149156421153,3449
+test_posthoc,60s,Spearman correlation,T_cell_spread,0.35335135978753046,3449
+test_posthoc,60s,Spearman correlation,abs_thermal_change_30s,0.44285272750930316,3449
+test_posthoc,60s,High-load descriptive subset MAE,current_abs >= validation 75th percentile,0.3393703707745418,1060
+test_posthoc,300s,Spearman correlation,current_abs,-0.016606760260373433,3353
+test_posthoc,300s,Spearman correlation,abs_power_gross,0.07052425734129501,3353
+test_posthoc,300s,Spearman correlation,SOC,0.2898254060556265,3353
+test_posthoc,300s,Spearman correlation,liquid_flow,0.339185385054198,3353
+test_posthoc,300s,Spearman correlation,temp_inlet_C,0.008429584767949033,3353
+test_posthoc,300s,Spearman correlation,T_cell_max,-0.15467780141356016,3353
+test_posthoc,300s,Spearman correlation,T_cell_spread,-0.13361424436585648,3353
+test_posthoc,300s,Spearman correlation,abs_thermal_change_30s,0.06202102934385997,3353
+test_posthoc,300s,High-load descriptive subset MAE,current_abs >= validation 75th percentile,2.2935755918685645,1007

@@ -1,0 +1,290 @@
+{
+  "60s": {
+    "baseline_audit": {
+      "horizon": "60s_baseline",
+      "target_column": "target_DeltaT_60s",
+      "features_checked": [
+        "current",
+        "voltage",
+        "SOC",
+        "liquid_flow",
+        "temp_inlet_C",
+        "temp_ambient_C",
+        "T_cell_max",
+        "T_cell_spread",
+        "T_plate_mean"
+      ],
+      "checks": {
+        "no_test_runs_in_train_or_val": {
+          "status": "PASS",
+          "train_runs": [
+            "ID01",
+            "ID02",
+            "ID11",
+            "ID12",
+            "ID13",
+            "ID14",
+            "ID15",
+            "ID17",
+            "ID20",
+            "ID21"
+          ],
+          "val_runs": [
+            "ID16",
+            "ID22"
+          ],
+          "test_runs_excluded": [
+            "ID18",
+            "ID19"
+          ]
+        },
+        "no_target_in_features": {
+          "status": "PASS",
+          "target_in_features": []
+        },
+        "no_future_measurements_in_features": {
+          "status": "PASS",
+          "flagged_future_cols": []
+        },
+        "zero_run_overlap_train_val": {
+          "status": "PASS",
+          "overlap": []
+        },
+        "exact_expected_runs": {
+          "status": "PASS",
+          "train_count": 10,
+          "val_count": 2
+        },
+        "zero_missing_values": {
+          "status": "PASS",
+          "train_nan_X": 0,
+          "train_nan_y": 0,
+          "val_nan_X": 0,
+          "val_nan_y": 0
+        }
+      },
+      "overall_status": "PASS"
+    },
+    "extended_audit": {
+      "horizon": "60s_extended",
+      "target_column": "target_DeltaT_60s",
+      "features_checked": [
+        "current",
+        "voltage",
+        "SOC",
+        "liquid_flow",
+        "temp_inlet_C",
+        "temp_ambient_C",
+        "T_cell_max",
+        "T_cell_spread",
+        "T_plate_mean",
+        "current_squared",
+        "current_abs",
+        "power_gross",
+        "current_mean_60s",
+        "current_mean_300s",
+        "current_sq_mean_60s",
+        "current_sq_mean_300s",
+        "T_cell_max_diff_30s",
+        "T_cell_max_diff_60s",
+        "T_cell_to_plate_diff",
+        "T_cell_to_inlet_diff",
+        "flow_x_inlet_temp"
+      ],
+      "checks": {
+        "no_test_runs_in_train_or_val": {
+          "status": "PASS",
+          "train_runs": [
+            "ID01",
+            "ID02",
+            "ID11",
+            "ID12",
+            "ID13",
+            "ID14",
+            "ID15",
+            "ID17",
+            "ID20",
+            "ID21"
+          ],
+          "val_runs": [
+            "ID16",
+            "ID22"
+          ],
+          "test_runs_excluded": [
+            "ID18",
+            "ID19"
+          ]
+        },
+        "no_target_in_features": {
+          "status": "PASS",
+          "target_in_features": []
+        },
+        "no_future_measurements_in_features": {
+          "status": "PASS",
+          "flagged_future_cols": []
+        },
+        "zero_run_overlap_train_val": {
+          "status": "PASS",
+          "overlap": []
+        },
+        "exact_expected_runs": {
+          "status": "PASS",
+          "train_count": 10,
+          "val_count": 2
+        },
+        "zero_missing_values": {
+          "status": "PASS",
+          "train_nan_X": 0,
+          "train_nan_y": 0,
+          "val_nan_X": 0,
+          "val_nan_y": 0
+        }
+      },
+      "overall_status": "PASS"
+    }
+  },
+  "300s": {
+    "baseline_audit": {
+      "horizon": "300s_baseline",
+      "target_column": "target_DeltaT_300s",
+      "features_checked": [
+        "current",
+        "voltage",
+        "SOC",
+        "liquid_flow",
+        "temp_inlet_C",
+        "temp_ambient_C",
+        "T_cell_max",
+        "T_cell_spread",
+        "T_plate_mean"
+      ],
+      "checks": {
+        "no_test_runs_in_train_or_val": {
+          "status": "PASS",
+          "train_runs": [
+            "ID01",
+            "ID02",
+            "ID11",
+            "ID12",
+            "ID13",
+            "ID14",
+            "ID15",
+            "ID17",
+            "ID20",
+            "ID21"
+          ],
+          "val_runs": [
+            "ID16",
+            "ID22"
+          ],
+          "test_runs_excluded": [
+            "ID18",
+            "ID19"
+          ]
+        },
+        "no_target_in_features": {
+          "status": "PASS",
+          "target_in_features": []
+        },
+        "no_future_measurements_in_features": {
+          "status": "PASS",
+          "flagged_future_cols": []
+        },
+        "zero_run_overlap_train_val": {
+          "status": "PASS",
+          "overlap": []
+        },
+        "exact_expected_runs": {
+          "status": "PASS",
+          "train_count": 10,
+          "val_count": 2
+        },
+        "zero_missing_values": {
+          "status": "PASS",
+          "train_nan_X": 0,
+          "train_nan_y": 0,
+          "val_nan_X": 0,
+          "val_nan_y": 0
+        }
+      },
+      "overall_status": "PASS"
+    },
+    "extended_audit": {
+      "horizon": "300s_extended",
+      "target_column": "target_DeltaT_300s",
+      "features_checked": [
+        "current",
+        "voltage",
+        "SOC",
+        "liquid_flow",
+        "temp_inlet_C",
+        "temp_ambient_C",
+        "T_cell_max",
+        "T_cell_spread",
+        "T_plate_mean",
+        "current_squared",
+        "current_abs",
+        "power_gross",
+        "current_mean_60s",
+        "current_mean_300s",
+        "current_sq_mean_60s",
+        "current_sq_mean_300s",
+        "T_cell_max_diff_30s",
+        "T_cell_max_diff_60s",
+        "T_cell_to_plate_diff",
+        "T_cell_to_inlet_diff",
+        "flow_x_inlet_temp"
+      ],
+      "checks": {
+        "no_test_runs_in_train_or_val": {
+          "status": "PASS",
+          "train_runs": [
+            "ID01",
+            "ID02",
+            "ID11",
+            "ID12",
+            "ID13",
+            "ID14",
+            "ID15",
+            "ID17",
+            "ID20",
+            "ID21"
+          ],
+          "val_runs": [
+            "ID16",
+            "ID22"
+          ],
+          "test_runs_excluded": [
+            "ID18",
+            "ID19"
+          ]
+        },
+        "no_target_in_features": {
+          "status": "PASS",
+          "target_in_features": []
+        },
+        "no_future_measurements_in_features": {
+          "status": "PASS",
+          "flagged_future_cols": []
+        },
+        "zero_run_overlap_train_val": {
+          "status": "PASS",
+          "overlap": []
+        },
+        "exact_expected_runs": {
+          "status": "PASS",
+          "train_count": 10,
+          "val_count": 2
+        },
+        "zero_missing_values": {
+          "status": "PASS",
+          "train_nan_X": 0,
+          "train_nan_y": 0,
+          "val_nan_X": 0,
+          "val_nan_y": 0
+        }
+      },
+      "overall_status": "PASS"
+    }
+  }
+}

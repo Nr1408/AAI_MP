@@ -1,0 +1,28 @@
+[
+  {
+    "horizon": "60s",
+    "model": "Ridge Regression",
+    "specification": "Ridge(alpha=1.0)",
+    "feature_set": "Extended (21 feats)",
+    "n": 3449,
+    "mae": 0.2271,
+    "rmse": 0.8256,
+    "r2": 0.806,
+    "bias": 0.0383,
+    "max_ae": 12.2504,
+    "abs_r2": 0.9923
+  },
+  {
+    "horizon": "300s",
+    "model": "Linear Regression",
+    "specification": "LinearRegression()",
+    "feature_set": "Extended (21 feats)",
+    "n": 3353,
+    "mae": 1.9302,
+    "rmse": 4.9649,
+    "r2": 0.5836,
+    "bias": -0.4013,
+    "max_ae": 43.3812,
+    "abs_r2": 0.7284
+  }
+]

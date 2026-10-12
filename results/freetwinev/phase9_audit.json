@@ -1,0 +1,110 @@
+{
+  "phase": "Phase 9",
+  "status": "COMPLETE",
+  "test_data_loaded": true,
+  "frozen_contract": {
+    "status": "PASS",
+    "models": {
+      "60s": "Ridge(alpha=1.0)",
+      "300s": "LinearRegression()"
+    },
+    "feature_set": "Extended (21 feats)",
+    "train_runs": [
+      "ID01",
+      "ID02",
+      "ID11",
+      "ID12",
+      "ID13",
+      "ID14",
+      "ID15",
+      "ID17",
+      "ID20",
+      "ID21"
+    ],
+    "validation_runs": [
+      "ID16",
+      "ID22"
+    ],
+    "test_runs": [
+      "ID18",
+      "ID19"
+    ],
+    "models_changed": false,
+    "model_refitting": false
+  },
+  "methodology_source": "validation runs ID16 and ID22 only",
+  "recommendation_config_persisted": true,
+  "test_tuning": false,
+  "test_calibration": false,
+  "model_refitting": false,
+  "phase0_to_phase8_hashes": {
+    "results\\freetwinev\\phase5_config.json": "0560d52cda2f52802eee433683c569935f50bc85c38be88c2e89286ad288b463",
+    "results\\freetwinev\\phase5_audit.json": "1379b3642959e3b53d3d361b26fcc5f8127420167ea88c2ef036e2bc62c47e59",
+    "results\\freetwinev\\phase5_results.csv": "ce98ac24848471c19105d8ff0e218545d73a322f55f14176358be86ea5b79811",
+    "results\\freetwinev\\phase6_audit.json": "4b3be7d51a488c8c96dfb44b643e30f8e020ea1e411d44938ae944897e003de4",
+    "results\\freetwinev\\phase6_results.csv": "0a1e5c49f6eea8476938be9762ba8c568dfc43854a65e47f06ebd7092624614d",
+    "results\\freetwinev\\phase7_audit.json": "b7c0e0b2d5f883892ff67f1ba6814d8fc03c8ac06fa762aa7493bcf34d7abdef",
+    "results\\freetwinev\\phase7_temporal_predictions_validation.csv": "a93493e19719bb15bb90693c8ac1b95718bb9f25e8780b200df5716458df0f00",
+    "results\\freetwinev\\phase7_temporal_predictions_test_posthoc.csv": "25b5b0c45261dc8a465eeb06192e397a696d78161607723a7af623348ede73c7",
+    "results\\freetwinev\\phase8_audit.json": "0e6265dc69a86ec801e8b752c8739df19aad137a067b5fadd1ae9edd73499f62",
+    "results\\freetwinev\\phase8_thresholds.json": "30aff3d7dbd98470c679f61c7134a73351b7f35790ea3337023b5cca23a3fd6c",
+    "results\\freetwinev\\phase8_risk_predictions_validation.csv": "086d5709896728120f24a5ed0865cda61d7494818f352dd92b13157579b4fc5e",
+    "results\\freetwinev\\phase8_risk_predictions_test.csv": "97d19ef629ca4ddcec262630d4f283d846e53386d6531ecdc1af199316a1eca8",
+    "results\\freetwinev\\phase8_risk_metrics_validation.csv": "15a32437bac64546191f2f8c5fcd3c5a7a950e637f377362e695a0d00699115b",
+    "results\\freetwinev\\phase8_risk_metrics_test.csv": "7ab1bd6a9e2181d6e88a8590e2ff13c757f30c15c9a992f0634c0e836baaf511",
+    "results\\freetwinev\\preprocessed\\preprocessing_config.json": "363ab332474e33d220c3804d44ec41651f82f0900998d8193e2f668bf04366c0",
+    "results\\freetwinev\\preprocessed\\feature_manifest.json": "bca22d841bdb9e27cd557a4bb9f0f68e73fd7f51319ab4824c29b84f306f74fe",
+    "results\\freetwinev\\preprocessed\\split_manifest.csv": "d977326cb4b1ab85a461be98c419cba53aafcf574d33b02d1df6eef898fe1f1d"
+  },
+  "validation_rows": 8930,
+  "overall_status": "PASS",
+  "test_rows": 6802,
+  "checks": {
+    "phase0_to_phase8_artifacts_unchanged": true,
+    "validation_membership_exact": true,
+    "test_membership_exact": true,
+    "thresholds_rules_validation_only": true,
+    "no_test_tuning": true,
+    "no_model_retraining": true,
+    "no_test_calibration": true,
+    "both_horizons_validation": true,
+    "both_horizons_test": true,
+    "no_missing_required_inputs": true,
+    "no_duplicate_validation_rows": true,
+    "no_duplicate_test_rows": true,
+    "validation_temporal_order": true,
+    "test_temporal_order": true,
+    "required_outputs_exist": true,
+    "notebook_valid_json": {
+      "status": "PASS",
+      "cell_count": 16,
+      "all_cells_have_language": true,
+      "all_cells_have_id": true
+    },
+    "source_files_compile": {
+      "status": "PASS"
+    }
+  },
+  "phase0_to_phase8_hashes_after": {
+    "results\\freetwinev\\phase5_config.json": "0560d52cda2f52802eee433683c569935f50bc85c38be88c2e89286ad288b463",
+    "results\\freetwinev\\phase5_audit.json": "1379b3642959e3b53d3d361b26fcc5f8127420167ea88c2ef036e2bc62c47e59",
+    "results\\freetwinev\\phase5_results.csv": "ce98ac24848471c19105d8ff0e218545d73a322f55f14176358be86ea5b79811",
+    "results\\freetwinev\\phase6_audit.json": "4b3be7d51a488c8c96dfb44b643e30f8e020ea1e411d44938ae944897e003de4",
+    "results\\freetwinev\\phase6_results.csv": "0a1e5c49f6eea8476938be9762ba8c568dfc43854a65e47f06ebd7092624614d",
+    "results\\freetwinev\\phase7_audit.json": "b7c0e0b2d5f883892ff67f1ba6814d8fc03c8ac06fa762aa7493bcf34d7abdef",
+    "results\\freetwinev\\phase7_temporal_predictions_validation.csv": "a93493e19719bb15bb90693c8ac1b95718bb9f25e8780b200df5716458df0f00",
+    "results\\freetwinev\\phase7_temporal_predictions_test_posthoc.csv": "25b5b0c45261dc8a465eeb06192e397a696d78161607723a7af623348ede73c7",
+    "results\\freetwinev\\phase8_audit.json": "0e6265dc69a86ec801e8b752c8739df19aad137a067b5fadd1ae9edd73499f62",
+    "results\\freetwinev\\phase8_thresholds.json": "30aff3d7dbd98470c679f61c7134a73351b7f35790ea3337023b5cca23a3fd6c",
+    "results\\freetwinev\\phase8_risk_predictions_validation.csv": "086d5709896728120f24a5ed0865cda61d7494818f352dd92b13157579b4fc5e",
+    "results\\freetwinev\\phase8_risk_predictions_test.csv": "97d19ef629ca4ddcec262630d4f283d846e53386d6531ecdc1af199316a1eca8",
+    "results\\freetwinev\\phase8_risk_metrics_validation.csv": "15a32437bac64546191f2f8c5fcd3c5a7a950e637f377362e695a0d00699115b",
+    "results\\freetwinev\\phase8_risk_metrics_test.csv": "7ab1bd6a9e2181d6e88a8590e2ff13c757f30c15c9a992f0634c0e836baaf511",
+    "results\\freetwinev\\preprocessed\\preprocessing_config.json": "363ab332474e33d220c3804d44ec41651f82f0900998d8193e2f668bf04366c0",
+    "results\\freetwinev\\preprocessed\\feature_manifest.json": "bca22d841bdb9e27cd557a4bb9f0f68e73fd7f51319ab4824c29b84f306f74fe",
+    "results\\freetwinev\\preprocessed\\split_manifest.csv": "d977326cb4b1ab85a461be98c419cba53aafcf574d33b02d1df6eef898fe1f1d"
+  },
+  "test_usage": "Applied frozen validation-derived decision-support rules post-hoc; no test-driven changes.",
+  "phase_boundary": "Stop after Phase 9; no Phase 10 work performed.",
+  "execution_timestamp": "2026-10-01T15:24:39.716667"
+}

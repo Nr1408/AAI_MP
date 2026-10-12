@@ -1,0 +1,15 @@
+Exp_ID,Total_Rows,Target_60s_Expected_NaNs,Target_60s_Observed_NaNs,Target_60s_At_Run_End_Only,Target_300s_Expected_NaNs,Target_300s_Observed_NaNs,Target_300s_At_Run_End_Only,Feature_NaN_Count
+ID01,2413,12,12,True,60,60,True,0
+ID02,728,12,12,True,60,60,True,0
+ID11,1071,12,12,True,60,60,True,0
+ID12,1153,12,12,True,60,60,True,0
+ID13,3012,12,12,True,60,60,True,0
+ID14,904,12,12,True,60,60,True,0
+ID15,1117,12,12,True,60,60,True,0
+ID16,2915,12,12,True,60,60,True,0
+ID17,1182,12,12,True,60,60,True,0
+ID18,1254,12,12,True,60,60,True,0
+ID19,2219,12,12,True,60,60,True,0
+ID20,1224,12,12,True,60,60,True,0
+ID21,1433,12,12,True,60,60,True,0
+ID22,1622,12,12,True,60,60,True,0

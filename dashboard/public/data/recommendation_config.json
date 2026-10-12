@@ -1,0 +1,22 @@
+{
+  "method": "Validation-derived decision-support rules over frozen Phase 8 risk",
+  "validation_runs": [
+    "ID16",
+    "ID22"
+  ],
+  "engineering_cutoff_reference": "Phase 8 Critical risk category, based on documented 70 deg C cutoff",
+  "active_load_min_current_abs_a": 20.0,
+  "active_load_assumption": "20 A is the lowest documented substantive discharge regime; this is an operating-regime assumption, not a certified control limit.",
+  "low_flow_reference_method": "75th percentile of liquid_flow among validation rows with current_abs >= 20 A and liquid_flow > 0.05",
+  "low_flow_reference_by_horizon": {
+    "300s": 1.4680435825,
+    "60s": 1.4680435825
+  },
+  "rules": {
+    "CRITICAL_PROTECTIVE_ACTION": "risk_category == Critical",
+    "HIGH_COOLING_ATTENTION": "risk_category == High, or Elevated without validated low-flow active-load evidence",
+    "INCREASE_COOLING": "risk_category == Elevated AND current_abs >= 20 A AND liquid_flow < validation low-flow reference",
+    "MAINTAIN": "risk_category == Normal"
+  },
+  "causal_status": "Decision support only; no causal cooling-control effect is claimed."
+}
